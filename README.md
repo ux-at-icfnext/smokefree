@@ -1,4 +1,6 @@
-# USWDS Sandbox
+# DMX Library Sandbox
+
+This library was built on top of the USWDS Sandbox... adding smart 11ty patterns and documentation for styling and prototyping...
 
 An eleventy site for rapid web prototyping and testing new work with USWDS. This site is designed to run locally and on [Cloud.gov pages](https://pages.cloud.gov/).
 
