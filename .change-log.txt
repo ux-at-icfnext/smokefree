@@ -1,0 +1,13 @@
+# Change Log from base directory
+These are the changes added to the base 11ty / USWDS base to be able to run this with a focus on YAML and Markdown
+
+_this not include applying the DMX library structure on top_
+
+## 2024-11-11
+### 11ty config additions
+Added js-yaml
+Added markdown-it
+added markdown-it-attrs
+
+### base theme settings
+Added desktop-lg and widescreen to be true on default, as we usually use those breakpoints on our sites.
