@@ -2,13 +2,15 @@
 layout: "base.html"
 ---
 <style>
-.grid-container {
+.contain {
+  max-width: 100ex;
+  margin: auto;
   margin-top: 50px;
 }
 </style>
 
 {% include 'patterns/breadcrumb.md' %}
-<div class="grid-container usa-prose">
+<div class="usa-prose contain">
 
 # {{ title }}
 {% if summary %} {{ summary }} {: .usa-intro} {% endif %}
