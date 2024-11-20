@@ -7,7 +7,7 @@ summary: |
 date: "Created"
 author: Alice
 image: /library/templates/imgs/alice-teaparty.png
-tags: template
+tags: templates
 ---
 <style>
   .page {
