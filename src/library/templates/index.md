@@ -9,7 +9,7 @@ title: Templates
 Below are examples of templates that we commonly use in our websites. Of course these are "wireframe" examples that do not include visual aesthetics and can be used as started files. {: .usa-intro }
 
 <ul class="usa-card-group">
-  {% for l in collections.template %}
+  {% for l in collections.templates %}
     <li class="usa-card tablet-lg:grid-col-6 widescreen:grid-col-3">
       <div class="usa-card__container">
       <div class="usa-card__body">

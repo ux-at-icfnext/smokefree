@@ -4,7 +4,7 @@ title: Basic Page with navigation
 summary: |
   Basic pages are simple evergreen pages like About Us, Contact Us, or Policy. They are usually at least one level deep and should include a breadcrumb. This example shows with side navigation.
 
-tags: template
+tags: templates
 ---
 
 {{ summary }}{: .usa-intro }

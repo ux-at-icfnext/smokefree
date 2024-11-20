@@ -4,7 +4,7 @@ title: Basic page
 summary: |
   Basic pages are simple evergreen pages like About Us, Contact Us, or Policy. They are usually at least one level deep and should include a breadcrumb
 
-tags: template
+tags: templates
 ---
 
 [See also the basic page with menu ](/library/templates/basic-menu)
