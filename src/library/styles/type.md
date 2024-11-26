@@ -3,14 +3,15 @@ layout: "right.md"
 title: Type
 tags: styles
 ---
-
-
 <div class="usa-prose">
 
 **Theme typography**
 All patterns in the library make use of the theme token typography by default. There is some theming of patterns, see the pattern you are working with to apply global pattern level changes. In order to apply the `usa-prose` styles to type, add the class to the highest level div that you want the class applied -- typically this would be in the `<body>` tag.
 
 ---
+**Fonts used for Smokefree**
+Montserrat & Roboto
+
 # Headline 1
 
 ## Headline 2
@@ -23,7 +24,8 @@ Body text - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius
 - with examples
 - of some bullets
 - as well as
-- what a [link](/) would look like
+- what a [link](/) would look like (use relative links)
+- what an external [link](https://somesite.com) would look like (use http or https)
 
 ---
 
@@ -34,21 +36,17 @@ Applying the class `usa-prose` to the outter element will apply prose to all ite
 
 ## Custominizing Type in the USWDS
 Use the `$theme-settings` to change the font you would like to use for the library. 
-### Native fonts
-USWDS comes with: Georgia, Helvetica, Merriweather, Open Sans, Public Sans, Roboto Mono, Source Sans Pro, System fonts, Tahoma, Verdana. To make use of these fonts simply add that font to the theme settings.
 
-_example_
-`$theme-font-role-heading: "merriweather";`
 
 ### Using Google Fonts
-_make sure to import the google font in your base css file_
+_make sure to import the google font in your base css file or embed them as links in the html head_
 Using the `$theme-settings` add your font tokens to the core.
 
 ```
   // font styles
     $theme-typeface-tokens: (
-        "lora": (
-            'display-name': "Lora", 
+        "roboto": (
+            'display-name': "roboto", 
             'cap-height': 364px,
             'stack': "Lora, serif",
         ),
@@ -60,7 +58,7 @@ Using the `$theme-settings` add your font tokens to the core.
     ),
 ```
 
-Then you can use the same method above to set your font: `$theme-font-role-heading: "lora";`
+Then you can use the same method above to set your font: `$theme-font-type-serif: "montserrat"` which is used for headings and `$theme-font-type-sans: "roboto"` for the body text. 
 
 Learn more about [theme-settings on USWDS](https://designsystem.digital.gov/documentation/settings/#typography-settings) and which variables can be controlled, include the font tokens, weight tokens, size togets and more.
 
