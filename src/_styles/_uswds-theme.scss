@@ -19,12 +19,14 @@
   $theme-color-primary: #087599,
   $theme-color-primary-light: #6bd1ff,
   $theme-color-primary-vivid: #204C7C,
+  $theme-color-base-light: #f2f2f2,
+  $theme-color-accent-warm-darker: #737373,
   // $theme-body-background-color: "ink",
   $theme-banner-max-width: "widescreen",
   $theme-header-max-width: "widescreen",
   $theme-footer-max-width: "widescreen",
   $theme-identifier-max-width: "widescreen",
-  $theme-grid-container-max-width: "desktop-lg",
+  $theme-grid-container-max-width: "desktop",
   $theme-card-flag-min-width: card,
   $theme-utility-breakpoints: (
               'card': false,   // 160px
@@ -39,5 +41,5 @@
   ),
   $theme-card-border-radius: 0,
   $theme-card-border-width: 1px, 
-  $theme-card-gap: 30px,
+  $theme-card-gap: 20px,
 );
