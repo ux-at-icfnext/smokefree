@@ -60,7 +60,7 @@ Using the `$theme-settings` add your font tokens to the core.
 
 Then you can use the same method above to set your font: `$theme-font-type-serif: "montserrat"` which is used for headings and `$theme-font-type-sans: "roboto"` for the body text. 
 
-Learn more about [theme-settings on USWDS](https://designsystem.digital.gov/documentation/settings/#typography-settings) and which variables can be controlled, include the font tokens, weight tokens, size togets and more.
+Learn more about [theme-settings on USWDS](https://designsystem.digital.gov/documentation/settings/#typography-settings) and which variables can be controlled, include the font tokens, weight tokens, size togets and more. Use utitlity classes in the sass files to access type settings for [Font size & family](https://designsystem.digital.gov/utilities/font-size-and-family/), [Text styles](https://designsystem.digital.gov/utilities/text-styles/), and [Paragraph styles](https://designsystem.digital.gov/utilities/paragraph-styles/)
 
 ## Designing in Code
 This library makes use of [Markdown-it](https://markdown-it.github.io/) and [Liquid](/https://cloudcannon.com/cheat-sheets/jekyll/) to create pages and layouts. HTML can be used when needed.
