@@ -17,23 +17,13 @@ _See the [USWDS](https://designsystem.digital.gov/design-tokens/color/theme-toke
 ### Customize theme palette
 Set the theme palette by setting the values you want in the [theme settings file](/docs/themesettings). You can use either a [theme token](https://designsystem.digital.gov/design-tokens/color/system-tokens/#using-color-tokens-2) or a hex value.
 
+#### Colors reset to match the Smokefree brand
+
 {% assign colorstable = color %}
 {% include 'partials/colors-table.md' %}
 
 
 ## Library & Prototype use
-Along with updating the [theme settings file](/docs/themesettings), please use the `site.data.colors.yml` file to update your colors. This will allow you to use color tokens in the css and also update this spec page with your chosen palatte.
+Along with updating the [theme settings file](/docs/themesettings), please use the `site.data.colors.yaml` file to update your colors. This will allow you to track which colors you've customized.
 
-Many patterns allow color application through the theme settings... and of course over all colors should be set that way. Using custom tokens or variables will help fill any gaps.
-
-**Tokens**
-Tokens are set up using this structure:
-- .my-color
-- .bg-my-color
-- .br-my-color
-- .br-block-my-color (top & bottom)
-- .br-bars-my-color (left & right)
-- .br-top-my-color
-- .br-left-my-color
-- .br-bottom-my-color
-- .br-right-my-color
+_note: the all-uswds-colors.yaml file contains the default USWDS color pallete if you need it as a reference_
