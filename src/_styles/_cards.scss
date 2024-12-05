@@ -2,23 +2,21 @@
 
 .usa-card {
   .usa-card__heading {
-    font-size: 20px;
-    font-weight: 600;
+    @include u-font('serif', 'lg');
+    @include u-text('semibold');
   }
   .usa-button {
-    @include u-font-family('serif');
-    font-size: 14px;
-    font-weight: 600;
+    @include u-font('serif', 'xs');
+    @include u-text('semibold', 'no-underline');
     width: 100%;
-    text-decoration: none;
     &:hover {
       @include u-bg('primary-vivid');
       transform: background-color .05s;
     }
   }
   .usa-button--outline {
-    box-shadow: 0;
-    border-radius: 0;
+    @include u-shadow('none');
+    @include u-radius('sm');
     @include u-border(1px, 'primary');
     width: 45%;
     &:hover {
@@ -28,7 +26,7 @@
     }
   }
   .usa-card_line {
-    padding: 10px;
+    @include u-padding(1);
     @include u-border-bottom(2px, 'primary-light');
     width: 30%;
   }
@@ -82,14 +80,14 @@
     @include u-bg('base-light');
   }
   .usa-card__header {
-    text-transform: uppercase;
+    @include u-text('uppercase');
     line-height: 1.42857;
     letter-spacing: 5.6px;
     @include u-text('white');
     @include u-bg('accent-warm-darker');    
     text-align: center;
     height: 40px;
-    padding: 10px;
+    @include u-padding(1);
   }
   .usa-card__img {
     max-height: 145px;
@@ -105,12 +103,11 @@
   .quicknote-title {
     @include u-text('white');
     @include u-bg('accent-warm-darker');
-    @include u-font-family('serif');
-    font-size: 20px;
-    font-weight: 600;
+    @include u-font('serif', 'lg');
+    @include u-text('semibold');
     text-align: center;
     text-size-adjust: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
+    @include u-padding(1);
+    @include u-margin-bottom(205);
   }
 }
