@@ -4,6 +4,7 @@
     <div class="usa-card__container">
       <div class="usa-card__header">
         <h4 class="usa-card__heading">card title</h4>
+        <div class="usa-card_line"></div>
       </div>
       <div class="usa-card__media">
         <div class="usa-card__img">
