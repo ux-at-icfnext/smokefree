@@ -12,6 +12,8 @@
 <!-- header and image settings -->
 {% if c.header-first %}{% assign cardhead = "usa-card--header-first" %}{% else %}{% assign cardhead = "" %}{% endif %}
 {% if c.inset %}{% assign inset = "usa-card__media--inset" %}{% else %}{% assign inset = "" %} {% endif %}
+{% if c.default %}{% assign default = "card-default" %}{% else %}{% assign default = "" %}{% endif %}
+
 
 <!-- use flag layout -->
 {% if c.left %}
@@ -21,7 +23,7 @@
 {% else %}
 {% assign flag = "" %}
 {% endif %}
-<li class="usa-card {{ grid }} {{ grid-mobile }} {{ grid-tablet }} {{ grid-desktop }} {{ grid-widescreen }} {{ cardhead }} {{ flag }}">
+<li class="usa-card {{ grid }} {{ grid-mobile }} {{ grid-tablet }} {{ grid-desktop }} {{ grid-widescreen }} {{ cardhead }} {{ default }}{{ flag }}">
 <div class="usa-card__container">
 <div class="usa-card__header">
 <h4 class="usa-card__heading">{{c.title}}</h4>
@@ -40,7 +42,9 @@
 <div class="usa-card__footer">
 {% for b in c.button %}
 <div style="display: inline;">
-<a href="{{ b.link }}" class="usa-button">{{ b.label }}</a>
+<!-- use a half width button -->
+{% if b.half %}{% assign half = "usa-button-half" %}{% else %}{% assign half = "" %}{% endif %}
+<a href="{{ b.link }}" class="usa-button {{ half }}">{{ b.label }}</a>
 </div>
 {% endfor %}
 </div>
