@@ -1,0 +1,11 @@
+@use "uswds-core" as *;
+
+.header-sf{
+    background-color: black;
+    .usa-nav__primary-item .usa-accordion__button span{
+        color: white;
+    }
+    .usa-nav__primary .usa-nav__primary-item a{
+        color: white;
+    }
+}
