@@ -10,6 +10,11 @@ a[href^="http"]::after, a[href^="https://"]::after
   font-size: 1rem;
 }
 
+.spec-header {
+  padding: 10px;
+  background-color: grey;
+}
+
 code {
   background-color: #fdf6e3;
   padding: 1px;

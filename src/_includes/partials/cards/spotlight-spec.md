@@ -51,6 +51,10 @@ The spotlight card is often included as the first card in a grouping of the defa
       .usa-card__img {
         max-height: 145px;
       }
+      h4 {
+        @include u-font('serif', 'lg');
+        @include u-text('semibold');
+      }
     }
   ```
   </div>

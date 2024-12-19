@@ -27,6 +27,7 @@
 <div class="usa-card__container">
 <div class="usa-card__header">
 <h4 class="usa-card__heading">{{c.title}}</h4>
+<div class="usa-card_line"></div>
 </div>
 {% if c.img %}
 <div class="usa-card__media {{ inset }}">
@@ -36,6 +37,7 @@
 </div>
 {% endif %}
 <div class="usa-card__body">
+
 {{ c.body | markdownify }}
 </div>
 {% if c.button %}
