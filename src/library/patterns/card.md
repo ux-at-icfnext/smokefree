@@ -2,6 +2,7 @@
 layout: "right.md"
 title: Card
 tags: patterns
+branded: true
 summary: Cards contain content and actions about a single subject.
 
 date: 2024-08-10

@@ -13,7 +13,7 @@
         </div>
       </div>
       <div class="usa-card__footer">
-        <a href="#" class="usa-button usa-button--outline usa-button-half"><i class="fa-brands fa-twitter"></i> Share </a> <a href="#" class="usa-button usa-button--outline usa-button-half"><i class="fa-regular fa-envelope"></i> Email</a>
+        <a href="#" class="usa-button usa-button--outline button-half"><i class="fa-brands fa-twitter"></i> Share </a> <a href="#" class="usa-button usa-button--outline button-half"><i class="fa-regular fa-envelope"></i> Email</a>
       </div>
     </div>
   </li>

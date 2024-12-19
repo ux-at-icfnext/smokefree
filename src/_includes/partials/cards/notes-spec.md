@@ -85,7 +85,7 @@ Quick Notes card use the base card without the body slot -- allowing the title t
   <div id="d3" class="usa-accordion__content usa-prose">
 
   ```css
-    .usa-button-half {
+    .button-half {
       max-width: 45%;
     }
   ```

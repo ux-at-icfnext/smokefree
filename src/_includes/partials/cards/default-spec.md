@@ -40,7 +40,7 @@ Add `card-default` to the `<li>` item in a card list group in order to create th
       .usa-card__img {
         max-height: 145px;
       }
-      h3, p {
+      h3, h4, p {
         @include u-text('primary');
       }
       .usa-card__container {
@@ -50,7 +50,7 @@ Add `card-default` to the `<li>` item in a card list group in order to create th
       .usa-card__container:hover {
         @include u-bg('primary-vivid');
         transition: background-color 0.5s;
-        h3, p {
+        h3, h4, p {
           @include u-text('white');
         }
       }

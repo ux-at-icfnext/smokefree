@@ -1,0 +1,55 @@
+article:
+  mobile: 12
+  tablet: 6
+  desktop: 4
+  list:
+    - title: Spotlight
+      body: |
+        #### Create your Quit Plan
+
+        Being prepared boost your chances of quitting successfully. Create your personal quit plan now.
+      img: woman-writing-notebook-phone.jpeg
+      header-first: true
+      button:
+        - link: "#"
+          label: Start My Plan
+    - title: Benefits of Quitting
+      body: |
+        Quitting smoking can hel most of the major parts of your body: from your brain to your DNA.
+      img: Couple_on_steps_hero.jpg
+      default: true
+      button:
+        - link: "#"
+          label: View Page
+    - title: How to Manage Cravings
+      body: |
+        When you have a craving, it's important to have a plan to beat that urge to smoke.
+      img: Family_by_river_hero.jpg
+      default: true
+      button:
+        - link: "#"
+          label: View Page
+    - title: Coping With Stress Without Smoking
+      body: |
+        Part of quittings is finding ways to cope without cigarettes. Try these better ways to deal with your emotions.
+      img: Coffeehouse_Friends_hero.jpg
+      default: true
+      button:
+        - link: "#"
+          label: View Page
+    - title: Tips for Slips
+      body: |
+        A lot of people slip and smoke a cigarette when trying to quit. Don't get discouraged, you can get back on track.
+      img: Tubing_man_hero.jpg
+      default: true
+      button:
+        - link: "#"
+          label: View Page
+    - title: Using Nicotine Replacement Therapy
+      body: |
+        Medications can help you handle withdrawal and cravings, and double your chances of quitting for good.
+      img: Man_leaning_hero.jpg
+      default: true
+      button:
+        - link: "#"
+          label: View Page
