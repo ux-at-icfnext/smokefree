@@ -1,6 +1,9 @@
 ---
 search:
   button: small
+alert:
+  type: info
+  slim: true
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -17,7 +20,10 @@ search:
   <title>{{ title }} - {{ settings.sitename }}</title>
 </head>
 <body>
-  {% if prototype %}{% include 'patterns/banner.md' %}{% endif %}
+  {% if prototype %}
+  {% include 'patterns/sitealert.md' %}
+  {% include 'patterns/banner.md' %}
+  {% endif %}
   {% include 'patterns/header.md' %}
   {{ content }}
   {% include 'patterns/footer.md' %}

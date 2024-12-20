@@ -44,7 +44,7 @@ graphics:
     description: With your full library available, staging design prototypes is quick, allowing for ideation and approvals.
 ---
 
-{% include "patterns/hero.md" %}
+{% include "patterns/libhero.md" %}
 
 {% if tagline and intro %}
     <section class="grid-container usa-section">

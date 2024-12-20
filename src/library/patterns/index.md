@@ -15,7 +15,8 @@ The patterns below have been collected from the USWDS system with information he
       <div class="usa-card__container">
       <div class="usa-card__body">
         <h4 class="usa-card__heading">{{ l.data.title}}</h4>
-        {% if l.data.branded %} <i class="text-accent-warm-dark">Smokefree brand applied</i><br>{% endif %}
+        {% if l.data.branded %} <i class="text-accent-warm-dark">Smokefree brand applied</i><br>
+        {% elsif l.data.custom %} <i class="text-accent-cool-darker">Smokefree custom pattern</i><br> {% endif %}
         {{ l.data.summary}}
       </div>
       <div class="usa-card__footer">

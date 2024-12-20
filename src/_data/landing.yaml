@@ -1,0 +1,53 @@
+hero:
+  title: Quit Smoking
+  content: |
+    Planning and support can help you quit for good. Before your quit day, take time to prepare for challenges. Make a plan for quitting. Know what to expect in the first days of being smokefree. Identify your reasons for quitting and plan how to ask for help if you need it.
+  img: sf_header_desktop_banner_Walking_across_bridge.jpg
+  alt: Photo of a pair of feet in tennis shoes walking across a wooden bridge with trees in the distance
+
+cards:
+  mobile: 12
+  tablet: 6
+  desktop: 4
+  list:
+    - title: Getting Started
+      default: true
+      body: There isn't one right way to quit, but getting prepared and knowing what to expect can make things easier.
+      img: getting_started.jpg
+      alt: Photo of a young father playing soccer with his son at a park
+      button:
+        - link: "#"
+          label: "Read more"
+    - title: Why You Should Quit
+      default: true
+      body: Quitting has many benefits, both for you and your loved ones. Find your reasons for quitting to help you stay smokefree.
+      img: why_quit.jpg
+      alt: Photo of a man taking a picture of his blonde girlfriend near a waterfall in the jungle
+      button:
+        - link: "#"
+          label: "Read more"
+    - title: Pick Your Path to Quit
+      default: true
+      body: Everyone's smokefree journey is different. Smokefree is here to help no matter where you are on the path to quitting.
+      img: smokefree_journey.jpg
+      alt: Photo of two tourists wearing sunglasses and smiling while holding a map
+      button:
+        - link: "#"
+          label: "Read more"
+    - title: How to Stay Smokefree
+      default: true
+      body: Quitting is hard, and so is staying smokefree. Here are steps to help you now and long term.
+      img: Happy_couple_in_field_hero.jpg
+      alt: Photo of a couple standing together in a field smiling at one another, a man with his arm around the woman
+      button:
+        - link: "#"
+          label: "Read more"
+    - title: E-cigs, Menthol & Dip
+      default: true
+      body: It's more than just cigarettes. Learn how any product with nicotine can be bad for your health.
+      img: sf_header_desktop_banner_Couple_autumn_stroll_0.jpg
+      alt: Photo of a couple walking under autumn leaves, the woman rests her head on the man's shoulder
+      button:
+        - link: "#"
+          label: "Read more"
+
