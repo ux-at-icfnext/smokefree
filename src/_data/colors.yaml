@@ -14,7 +14,7 @@
   token: 'accent-warm-dark'
   cat: 'accent'
 - value: '#51326f'
-  token: 'violet'
+  token: 'accent-cool-darker'
   cat: 'basic'
 - value: '#737373'
   token: 'accent-warm-darker'
