@@ -13,7 +13,7 @@ tags: specs
 | field | content | notes| 
 | -- | -- | --|
 | title | h2 - `.block-title` | Articles & Information |
-| card | see [cards](/patterns/card) for schema | The first card uses `usa-card--header-first`. <br> The remainer use `card-default` |
+| card | see [cards](/library/patterns/card) for schema | The first card uses `usa-card--header-first`. <br> The remainer use `card-default` |
 
 
 ## Articles & Information {: .block-title}

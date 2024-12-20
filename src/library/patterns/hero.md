@@ -15,11 +15,28 @@ alert:
   body: |
     This is a custom component that is not in the USWDS, however it still follows the UX best practices.
 ---
+<style>
+  .hero-small {
+    @media(min-width: 1024px) {
+    display: block;
+    }
+  }
+</style>
 {% assign hero = landing.hero %}
 {% include 'patterns/alert.md' %}
 
 ## Design
-{% include 'patterns/hero.md' %}
+<div class="sf-hero hero-small">
+<div>
+
+# {{ hero.title }}
+{{ hero.content }}
+</div>
+<div>
+
+![{{ hero.alt }}](/assets/images/{{ hero.img }})
+</div>
+</div>
 
 ## Content specifications 
 | Name | Type |
