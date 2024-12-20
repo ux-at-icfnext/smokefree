@@ -1,8 +1,11 @@
 ---
 layout: content-grid
 title: Landing Page Specifications
+summary: Landing pages are used to help navigation pathways to topic based areas of the site
+
+tags: specs
 ---
-[view full prototype](/templates/landing)
+[view full prototype](/library/templates/landing)
 
 ## 1. Landing Page Hero {: .spec-header }
 see [hero](patterns/hero) for schema

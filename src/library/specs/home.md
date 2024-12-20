@@ -1,8 +1,11 @@
 ---
 layout: content-grid
 title: Home Page Specifications
+summary: Home pages serve as the front door to a website.
+
+tags: specs
 ---
-[view full prototype](/templates/home)
+[view full prototype](/library/templates/home)
 
 
 ## 3. Articles {: .spec-header }
