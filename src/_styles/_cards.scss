@@ -98,13 +98,13 @@
   }
 }
 
-.quicknote {
+.quitnote {
   @include u-bg('base-light');
   padding: 20px 20px 0 20px;
   .usa-card__container {
     border: 0;
   }
-  .quicknote-title {
+  .quitnote-title {
     @include u-text('white');
     @include u-bg('accent-warm-darker');
     @include u-font('serif', 'lg');

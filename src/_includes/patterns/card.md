@@ -27,7 +27,7 @@
 <div class="usa-card__container">
 <div class="usa-card__header">
 <h4 class="usa-card__heading">{{c.title}}</h4>
-<div class="usa-card_line"></div>
+{% if c.default %}<div class="usa-card_line"></div>{% endif %}
 </div>
 {% if c.img %}
 <div class="usa-card__media {{ inset }}">
@@ -36,19 +36,17 @@
 </div>
 </div>
 {% endif %}
+{% if c.body %}
 <div class="usa-card__body">
-
 {{ c.body | markdownify }}
 </div>
+{% endif %}
 {% if c.button %}
 <div class="usa-card__footer">
-{% for b in c.button %}
 <div style="display: inline;">
-<!-- use a half width button -->
-{% if b.half %}{% assign half = "usa-button-half" %}{% else %}{% assign half = "" %}{% endif %}
-<a href="{{ b.link }}" class="usa-button {{ half }}">{{ b.label }}</a>
-</div>
+{% for b in c.button %}<!-- use a half width button -->{% if b.half %}{% assign half = "button-half usa-button--outline" %}{% else %}{% assign half = "" %}{% endif %}<a href="{{ b.link }}" class="usa-button {{ half }}">{{ b.label }}</a>
 {% endfor %}
+</div>
 </div>
 {% endif %}
 </div>
