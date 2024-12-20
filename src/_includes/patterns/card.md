@@ -36,10 +36,11 @@
 </div>
 </div>
 {% endif %}
+{% if c.body %}
 <div class="usa-card__body">
-
 {{ c.body | markdownify }}
 </div>
+{% endif %}
 {% if c.button %}
 <div class="usa-card__footer">
 {% for b in c.button %}
