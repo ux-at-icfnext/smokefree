@@ -32,7 +32,7 @@
 {% if c.img %}
 <div class="usa-card__media {{ inset }}">
 <div class="usa-card__img">
-<img src="/assets/images/{{c.img}}" />
+<img src="/assets/images/{{c.img}}"  alt="{{ c.alt }}"/>
 </div>
 </div>
 {% endif %}
