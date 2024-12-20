@@ -27,7 +27,7 @@
 <div class="usa-card__container">
 <div class="usa-card__header">
 <h4 class="usa-card__heading">{{c.title}}</h4>
-<div class="usa-card_line"></div>
+{% if c.default %}<div class="usa-card_line"></div>{% endif %}
 </div>
 {% if c.img %}
 <div class="usa-card__media {{ inset }}">
