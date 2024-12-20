@@ -9,8 +9,12 @@ alert:
 
 tags: templates
 ---
+<div class="grid-container usa-prose">
 
+{% include 'partials/title/title.md' %}
 
 ## Articles & Information {: .block-title}
 {% assign card = home.article %}
 {% include "patterns/card.md" %}
+
+</div>

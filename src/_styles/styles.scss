@@ -3,6 +3,7 @@
 @forward "uswds-theme-custom-styles";
 @use "cards";
 @use "hero";
+@use "title";
 
 a[href^="http"]::after, a[href^="https://"]::after
 {
