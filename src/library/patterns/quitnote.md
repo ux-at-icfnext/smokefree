@@ -7,7 +7,7 @@ summary: Quicknotes are right rail secondary infromation used on article pages a
 
 date: 2024-08-27
 
-include: "{% include 'patterns/quicknote.md' %}"
+include: "{% include 'patterns/quitnote.md' %}"
 
 card:
   list:
