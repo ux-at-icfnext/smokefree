@@ -1,12 +1,27 @@
 @use "uswds-core" as *;
 
 .header-sf{
-    background-color: #2a2a2a;
+    .usa-nav{
+        background-color: #2a2a2a;
+    }
     .usa-nav__primary-item .usa-accordion__button span{
         color: white;
     }
     .usa-nav__primary .usa-nav__primary-item a{
         color: white;
+    }
+    .usa-nav__primary .usa-nav__primary-item a:hover{
+        text-decoration: underline;
+        background-color: #064d80;
+    }
+    .usa-nav__submenu .usa-nav__submenu-item{
+        background-color: #087599;
+    }
+    .usa-nav__submenu{
+        background-color: #087599;
+    }
+    .usa-nav__primary button[aria-expanded=true]{
+        background-color: #087599;
     }
 }
 .header-sf{
