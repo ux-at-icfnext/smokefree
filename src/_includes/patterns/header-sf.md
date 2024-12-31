@@ -26,27 +26,27 @@
           <ul id="basic-nav-section-one" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
+                ><span>Create My Quit Plan</span></a
               >
             </li>
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
+                ><span>How To Quit</span></a
               >
             </li>
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
+                ><span>Smokefree App</span></a
               >
             </li>
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
+                ><span>Smokefree Texting Programs</span></a
               >
             </li>
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
+                ><span>Get Extra Help</span></a
               >
             </li>
           </ul>
