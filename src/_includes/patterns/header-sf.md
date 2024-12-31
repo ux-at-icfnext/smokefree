@@ -63,27 +63,27 @@
           <ul id="basic-nav-section-two" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
+                ><span>Getting Started</span></a
               >
             </li>
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
+                ><span>Why You Should Quit</span></a
               >
             </li>
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
+                ><span>Pick Your Path to Quit</span></a
               >
             </li>
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
+                ><span>How to Stay Smokefree</span></a
               >
             </li>
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
+                ><span>E-Cigs, Menthol & Dip</span></a
               >
             </li>
           </ul>
@@ -100,32 +100,32 @@
           <ul id="basic-nav-section-three" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
+                ><span>Nicotine Withdrawl</span></a
               >
             </li>
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
+                ><span>Cravings & Triggers</span></a
               >
             </li>
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
+                ><span>Handling Stress</span></a
               >
             </li>
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
+                ><span>Manage Your Mood</span></a
               >
             </li>
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
+                ><span>Slips and Relapses</span></a
               >
             </li>
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
+                ><span>Weight Gain & Appetite</span></a
               >
             </li>
           </ul>
@@ -142,42 +142,42 @@
           <ul id="basic-nav-section-four" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
+                ><span>Create My Quit Plan</span></a
               >
             </li>
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
+                ><span>Get Ready to Quit Vaping</span></a
               >
             </li>
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
+                ><span>Managing Your First Day Without Vaping</span></a
               >
             </li>
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
+                ><span>Dealing With Vape Cravings</span></a
               >
             </li>
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
+                ><span>Know Your Vaping Triggers</span></a
               >
             </li>
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
+                ><span>Nicotine Withdrawl and Vaping</span></a
               >
             </li>
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
+                ><span>Stress, Anxiety, and Vaping</span></a
               >
             </li>
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
+                ><span>Vaping and Depression</span></a
               >
             </li>
           </ul>
@@ -194,12 +194,12 @@
           <ul id="basic-nav-section-five" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
+                ><span>How To Support Your Quitter</span></a
               >
             </li>
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
+                ><span>FAQS For Helping Someone Quit</span></a
               >
             </li>
           </ul>
