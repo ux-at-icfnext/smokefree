@@ -8,11 +8,8 @@ date: 2024-08-16
 ---
 
 ## Design
-### Slim header
-{% include 'patterns/header.md' %}
-
-### Extended header
-{% include 'patterns/header-ext.md' %}
+### Smokefree Header
+{% include 'patterns/header-sf.md' %}
 
 Please note that mega menus were not added to the library. Even though this pattern exist in the USWDS, megamenus have usability and accessiblity issues. They are also becoming old fashion. See more about this from [NNGroup](https://www.nngroup.com/articles/mega-menus-work-well/). However, if the solution for you web properity needs a mega menu, the code and specifications can be found on the [header spec](https://designsystem.digital.gov/components/header/) for the USDWS.  
 
