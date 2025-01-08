@@ -1,0 +1,35 @@
+@use "uswds-core" as *;
+
+.sf-hero {
+  
+  h1 {
+    @include u-font('serif', '3xl');
+    margin-bottom: 0px;
+  }
+  p {
+    @include u-font('sans', 'lg');
+    @include u-text(100);
+  }
+  img {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+  }
+  @media(min-width: 1024px) {
+    display: flex;
+    gap: 20px;
+    div:nth-child(2) {
+      min-width: 350px;
+    }
+  }
+}
+
+/* -- container query would be better
+@container .sf-hero (width > 1024px) {
+  display: flex;
+  gap: 20px;
+  div:nth-child(2) {
+    min-width: 350px;
+  }
+}
+*/

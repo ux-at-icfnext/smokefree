@@ -2,6 +2,7 @@
 layout: "right.md"
 title: Card
 tags: patterns
+branded: true
 summary: Cards contain content and actions about a single subject.
 
 date: 2024-08-10
@@ -106,6 +107,7 @@ _these go within the `list` property of the card yml._
 - **title** - required
 - **body** - text only / optional
 - **img** - optional, link to image file
+- **alt** - optional, alt tag for accessibility
 - **inset** - optional, set to "true"
 - **header-first** - optional, moves header above the image, set to "true"
 - **default** - optional, set to true to get the styling of the default card

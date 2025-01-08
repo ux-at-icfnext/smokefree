@@ -10,6 +10,14 @@
 - value: '#204C7C'
   token: 'primary-vivid'
   cat: 'primary'
+- value: '#b65e00'
+  token: 'accent-warm-dark'
+  cat: 'accent'
+- value: '#51326f'
+  token: 'accent-cool-darker'
+  cat: 'basic'
 - value: '#737373'
   token: 'accent-warm-darker'
   cat: 'accent'
+
+

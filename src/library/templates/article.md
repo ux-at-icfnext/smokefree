@@ -1,61 +1,68 @@
 ---
-layout: "left"
+layout: base
 title: Article
 summary: |
-  These pages are at the end of a person's journey. They are similar to Basic Pages, except that there is an expectation for dated content. Content created here should be focused on supporting the purpose of the resource. It provides dynamic navigational content to other pages like topic, search, and home.
+  These pages are at the end of a person's journey. Content created here should be focused on supporting the purpose of the resource. It provides dynamic navigational content to other pages like topic, search, and home.
 
 date: "Created"
 author: Alice
 image: /library/templates/imgs/alice-teaparty.png
 tags: templates
+
+prototype: true
+alert: 
+  content: please see the <a href="/library/specs/article">specifications</a> page for this template
+
 ---
 <style>
-  .page {
-    display: flex;
-    justify-content: space-between;
-    max-width: 100ex;
+  @media (min-width: 1024px){
+    .wrapper {
+      display: flex;
+      gap: 20px;
+    }
+    .siderail {
+      max-width: 300px;
+    }
   }
 </style>
+<div class="grid-container usa-prose">
+<div class="wrapper">
+<article>
 
+# Prepare to Quit
+Quitting is hard. But quitting can be a bit easier if you have a plan. When you think you’re ready to quit, here are a few simple steps you can take to put your plan into action. {: .usa-intro}
 
-![tea party]({{image}})
-{{ page.date | date: "%A - %b %d, %Y" }}
-by: {{ author }}
+![Photo of a mom, dad, and three kids in a park on a sunny day. The kids are playing with hula hoops.](/assets/images/Hoola_hoop_family_hero.jpg)
 
-{{ summary }}{: .usa-intro }
+Remind yourself of the rewards of quitting to help yourself stay on track:
 
+- **20 minutes:** heart rate, blood pressure drop
+- **12 hours:** carbon monoxide in the bloodstream drops to normal
+- **2 weeks–3 months:** circulation, lung function improves; heart attack risk begins to drop
+- **1–9 months:** cough less, breathe easier
+- **1 year:** risk of coronary heart disease cut in half
+- **2–5 years:** risk of cancer of mouth, throat, esophagus, bladder cut in half; stroke risk is reduced to that of a nonsmoker
+- **10 years:** half as likely to die from lung cancer; risk of kidney or pancreatic cancer decreases
+- **15 years:** risk of coronary heart disease same as non-smoker’s risk
 
-## This seemed to Alice a good opportunity 
-for making her escape; so she set off at once, and ran till she was quite tired and out of breath, and till the [puppy’s bark](#) sounded quite faint in the distance.
+## Immediate Rewards
+There is no safe amount of cigarette smoke. When you smoke, the chemicals in tobacco reach your lungs quickly every time you inhale. Your blood carries the toxins to every organ in your body. But after you quit, your body begins to heal within 20 minutes of your last cigarette. The nicotine leaves your body within three days. As your body starts to repair itself, you may feel worse instead of better. [Withdrawal can be difficult](https://smokefree.gov/challenges-when-quitting/withdrawal/managing-nicotine-withdrawal), but it’s a sign that your body is healing.
 
-‘I don’t see,’ said the Caterpillar.
+## Long-Term Rewards
+Quitting can help you add years to your life. Smokers who quit before age 40 reduce their chance of dying too early from smoking-related diseases by about 90 percent. Those who quit by age 45–54 reduce their chance of dying too early by about two-thirds. You can take control of your health by quitting and staying smokefree. Over time, you’ll greatly lower your risk of death from lung cancer and other diseases such as heart disease, stroke, chronic bronchitis, emphysema, and at least 13 other kinds of cancer.
 
-‘Ugh!’ said the Lory, with a shiver.
-
-
-Once more she found herself in the long hall, and close to the little glass table. ‘Now, I’ll manage better this time,’ she said to herself, and began by taking the little golden key, and unlocking the door that led into the garden. 
-- Then she went to work 
-- nibbling at the mushroom 
-- (she had kept a piece of it in her pocket) 
-
-till she was about a foot high: then she walked down the little passage: and THEN--she found herself at last in the beautiful garden, among the bright flower-beds and the cool fountains.,
-
-‘May it please your Majesty,’ said Two, in a very humble tone, going down on one knee as he spoke, ‘we were trying--’
-
-## Alice did not at all
-### like the tone of this remark
-And thought it would be as well to introduce some other subject of [conversation](). While she was trying to fix on one, the cook took the cauldron of soup off the fire, and at once set to work throwing everything within her reach at the Duchess and the baby--the fire-irons came first; then followed a shower of saucepans, plates, and dishes. The Duchess took no notice of them even when they hit her; and the baby was howling so much already, that it was quite impossible to say whether the blows hurt it or not.
-
-Alice tried to fancy to herself what such an extraordinary ways of living would be like, but it puzzled her too much, so she went on: ‘But why did they live at the bottom of a well?’
-
-‘I’ll fetch the executioner myself,’ said the King eagerly, and he hurried off.
-
-Alice said nothing: she had never been so much contradicted in her life before, and she felt that she was losing her temper.
-
-‘It goes on, you know,’ the Hatter continued, ‘in this way:--
-
-<div class="page">
-  <span><a href="#"><i class="fa-solid fa-arrow-left-to-arc"></i> Previous Article</a></span>
-  <span><a href="#">Next Article <i class="fa-solid fa-arrow-right-to-arc"></i></a></span>
+When you quit, you’ll also protect your loved ones from dangerous [secondhand smoke](https://smokefree.gov/quit-smoking/why-you-should-quit/secondhand-smoke). You’ll set a good example and show your family that a life without cigarettes is possible.
+</article>
+  <div class="siderail">
+    {% assign card = article.quit %}
+    {% include 'patterns/quitnote.md' %}
+  </div>
 </div>
 
+---
+
+## More for you {: .block-title}
+{% assign card = article.card %}
+{% include "patterns/card.md" %}
+
+</div> <!-- closes grid -->

@@ -1,1 +1,9 @@
 @use "uswds-core" as *;
+
+/* Typography styles */
+h2.block-title { 
+  @include u-font('serif', 'lg');
+  @include u-text('uppercase');
+  text-align: center;
+  letter-spacing: 5px;
+}

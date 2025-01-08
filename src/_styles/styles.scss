@@ -3,12 +3,19 @@
 @forward "uswds-theme-custom-styles";
 @use "cards";
 @use "header";
+@use "hero";
+@use "title";
 
 a[href^="http"]::after, a[href^="https://"]::after
 {
   font-family: "Font Awesome 6 Pro"; font-weight: 900; content: "\f08e";
   padding-left: 5px;
   font-size: 1rem;
+}
+
+.spec-header {
+  padding: 10px;
+  background-color: grey;
 }
 
 code {

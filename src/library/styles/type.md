@@ -48,7 +48,7 @@ Using the `$theme-settings` add your font tokens to the core.
         "roboto": (
             'display-name': "roboto", 
             'cap-height': 364px,
-            'stack': "Lora, serif",
+            'stack': "Roboto, serif",
         ),
         "montserrat": (
             'display-name': "Montserrat", 

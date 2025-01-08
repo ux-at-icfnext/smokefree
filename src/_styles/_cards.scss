@@ -42,7 +42,7 @@
   .usa-card__img {
     max-height: 145px;
   }
-  h3, p {
+  h3, h4, p {
     @include u-text('primary');
   }
   .usa-card__container {
@@ -52,7 +52,7 @@
   .usa-card__container:hover {
     @include u-bg('primary-vivid');
     transition: background-color 0.5s;
-    h3, p {
+    h3, h4, p {
       @include u-text('white');
     }
   }
@@ -71,7 +71,7 @@
   }
 }
 
-.usa-button-half {
+.button-half {
   max-width: 45%;
 }
 
@@ -92,15 +92,19 @@
   .usa-card__img {
     max-height: 145px;
   }
+  h4 {
+    @include u-font('serif', 'lg');
+    @include u-text('semibold');
+  }
 }
 
-.quicknote {
+.quitnote {
   @include u-bg('base-light');
   padding: 20px 20px 0 20px;
   .usa-card__container {
     border: 0;
   }
-  .quicknote-title {
+  .quitnote-title {
     @include u-text('white');
     @include u-bg('accent-warm-darker');
     @include u-font('serif', 'lg');

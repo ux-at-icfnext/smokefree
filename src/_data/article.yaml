@@ -1,0 +1,57 @@
+title: More For You
+
+card:
+  mobile: 12
+  tablet: 6
+  desktop: 3
+  list:
+    - title: Why Do You Want to Quit?
+      body: Knowing your reasons for quitting can help you get past a craving when you feel the urge to smoke.
+      img: Mom_daughter_bubbles_hero.jpg
+      alt: Photo of a mom helping her daughter blow bubbles in the park.
+      default: true
+      button:
+        - link: "#"
+          label: View Page
+    - title: Health Effects
+      body: Tobacco and nicotine affect more than your lungs. Learn how smoking harms nearly every organ of the body.
+      img: Beach_gazer_hero.jpg
+      alt: Photo of a woman looking out at the beach and the ocean.
+      default: true
+      button:
+        - link: "#"
+          label: View Page
+    - title: Secondhand Smoke
+      body: Secondhand smoke can hurt you and your loved ones. Know the facts and take steps to avoid breathing it.
+      img: Piggyback_ride_hero.jpg
+      alt: Photo of a mom giving her daughter a piggyback ride.
+      default: true
+      button:
+        - link: "#"
+          label: View Page
+    - title: Prepare to Quit
+      body: There are things you can do before you smoke your last cigarette to help make quitting a little bit easier.
+      img: kick_smoking_hero.jpg
+      alt: Photo of a woman wearing zebra-striped leggings jumping up and kicking in the style of kick boxing.
+      default: true
+      button:
+        - link: "#"
+          label: View Page
+quit:
+  list:
+    - title: |
+        Like anything hard, quitting smoking takes practice. Get help practicing your quit smoking skills with our Practice Quit text messaging program.
+      img: man-text.jpg
+      button:
+        - link: "#"
+          label: Sign Up
+    - title: |
+        Fact: When used as directed, the nicotine patch can double your chances of quitting successfully.
+      img: nicotine-patch-success.jpg
+      button:
+        - link: "#"
+          label: <i class="fa-brands fa-twitter"></i> Share
+          half: true
+        - link: "#"
+          label: <i class="fa-regular fa-envelope"></i> Share
+          half: true
