@@ -6,6 +6,7 @@
 @use "hero";
 @use "title";
 @use "tools-tips";
+@use "accordion-horizontal";
 
 a[href^="http"]::after, a[href^="https://"]::after
 {
