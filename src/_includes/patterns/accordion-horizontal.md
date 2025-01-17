@@ -1,21 +1,21 @@
 <div class="sf-homepage-4boxes">
       <div class="view-content">
           <div class="waypoint">
-              <div class="sf_homepage_4boxes__wrapper hp-button">
-                      <button class="btn btn-primary collapsed" id="btn__I-Want-to-Quit" type="button" data-toggle="collapse" data-target="#expanded_btn__I-Want-to-Quit" aria-expanded="false" aria-controls="expanded_btn__I-Want-to-Quit">        
-                      <div class="text-wrapper">            
+              <div class="sf_homepage_4boxes__wrapper hp-button open">
+                      <button class="btn btn-primary open" id="btn__I-Want-to-Quit" type="button" data-toggle="collapse" data-target="#expanded_btn__I-Want-to-Quit" aria-expanded="true" aria-controls="expanded_btn__I-Want-to-Quit">    
+                      <div class="text-wrapper">          
                           <h2>
                               <div class="field-content">
                                   I Want to Quit
                               </div>
-                          </h2>     
+                          </h2>        
                       </div>
-                       <!-- /.text-wrapper -->
+                       <!-- /.text-wrapper -->       
                       <div class="expand-box">
                           <span class="sr-only">Expand</span>
                       </div>
                           </button>
-                  <div class="collapse" style="height:0px;" id="expanded_btn__I-Want-to-Quit" aria-expanded="false">
+                  <div class="collapse in" style="" id="expanded_btn__I-Want-to-Quit" aria-expanded="true">
                       <div class="content-wrapper">
                           <div class="text-wrapper">
                               <div class="field-content">
@@ -40,15 +40,15 @@
           </div>
           <div class="waypoint">
               <div class="sf_homepage_4boxes__wrapper hp-button">
-                      <button class="btn btn-primary collapsed" id="btn__My-Quit-Day" type="button" data-toggle="collapse" data-target="#expanded_btn__My-Quit-Day" aria-expanded="false" aria-controls="expanded_btn__My-Quit-Day"> 
-                      <div class="text-wrapper">
+                      <button class="btn btn-primary collapsed" id="btn__My-Quit-Day" type="button" data-toggle="collapse" data-target="#expanded_btn__My-Quit-Day" aria-expanded="false" aria-controls="expanded_btn__My-Quit-Day">      
+                      <div class="text-wrapper">            
                           <h2>
                               <div class="field-content">
                                   My Quit Day
                               </div>
-                          </h2>
+                          </h2>         
                       </div>
-                       <!-- /.text-wrapper -->
+                       <!-- /.text-wrapper -->     
                       <div class="expand-box">
                           <span class="sr-only">Expand</span>
                       </div>
@@ -78,15 +78,15 @@
           </div>
           <div class="waypoint">
               <div class="sf_homepage_4boxes__wrapper hp-button">
-                      <button class="btn btn-primary collapsed" id="btn__Newly-Quit" type="button" data-toggle="collapse" data-target="#expanded_btn__Newly-Quit" aria-expanded="false" aria-controls="expanded_btn__Newly-Quit">
-                      <div class="text-wrapper">
+                      <button class="btn btn-primary collapsed" id="btn__Newly-Quit" type="button" data-toggle="collapse" data-target="#expanded_btn__Newly-Quit" aria-expanded="false" aria-controls="expanded_btn__Newly-Quit">        
+                      <div class="text-wrapper">                
                           <h2>
                               <div class="field-content">
                                   I Recently Quit
                               </div>
-                          </h2>
+                          </h2>         
                       </div>
-                       <!-- /.text-wrapper -->
+                       <!-- /.text-wrapper -->   
                       <div class="expand-box">
                           <span class="sr-only">Expand</span>
                       </div>
@@ -116,15 +116,15 @@
           </div>
           <div class="waypoint">
               <div class="sf_homepage_4boxes__wrapper hp-button">
-                      <button class="btn btn-primary collapsed" id="btn__Staying-Quit" type="button" data-toggle="collapse" data-target="#expanded_btn__Staying-Quit" aria-expanded="false" aria-controls="expanded_btn__Staying-Quit">
-                      <div class="text-wrapper">
+                      <button class="btn btn-primary collapsed" id="btn__Staying-Quit" type="button" data-toggle="collapse" data-target="#expanded_btn__Staying-Quit" aria-expanded="false" aria-controls="expanded_btn__Staying-Quit">        
+                      <div class="text-wrapper">           
                           <h2>
                               <div class="field-content">
                                   Staying Quit
                               </div>
-                          </h2>
+                          </h2>           
                       </div>
-                       <!-- /.text-wrapper -->
+                       <!-- /.text-wrapper -->        
                       <div class="expand-box">
                           <span class="sr-only">Expand</span>
                       </div>
