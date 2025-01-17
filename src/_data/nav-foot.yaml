@@ -1,32 +1,15 @@
 
 foot:
-  - title: Link Example
+  - title: LiveHelp
     href: /
-    subnav:
-      - title: Example Sub
-        href: /
-      - title: Example Sub
-        href: /
-      - title: Example Sub
-        href: /
-  - title: Link Example
+  - title: QuitPlan
     href: /
-    subnav:
-      - title: Example Sub
-        href: /
-      - title: Example Sub
-        href: /
-      - title: Example Sub
-        href: /
-  - title: Link Example
+  - title: SmokefreeTXT
     href: /
-    subnav:
-      - title: Example Sub
-        href: /
-      - title: Example Sub
-        href: /
-      - title: Example Sub
-        href: /
+  - title: About Smokefree
+    href: /
+  - title: Home
+    href: /
 
 social:
   - icon: /assets/img/usa-icons/facebook.svg
@@ -35,12 +18,6 @@ social:
   - icon: /assets/img/usa-icons/twitter.svg
     alt: "Twitter"
     link: /
-  - icon: /assets/img/usa-icons/youtube.svg
-    alt: "YouTube"
-    link: /
   - icon: /assets/img/usa-icons/instagram.svg
     alt: "Instagram"
-    link: /
-  - icon: /assets/img/usa-icons/rss_feed.svg
-    alt: "RSS"
     link: /

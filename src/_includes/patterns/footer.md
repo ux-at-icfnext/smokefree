@@ -8,14 +8,18 @@
   <div class="grid-container usa-footer__return-to-top">
     <a href="#">Return to top</a>
   </div>
+  <div class="footer-tagline">NIH... Turning Discovery into Health®</div>
   <div class="usa-footer__primary-section">
-    <nav class="usa-footer__nav" aria-label="Footer navigation">
-      <ul class="grid-row grid-gap">
-        {% for f in foot %}<li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
+    <nav class="usa-footer__nav grid-row grid-gap" aria-label="Footer navigation">
+      <ul class="grid-row grid-gap grid-col-10">
+        {% for f in foot %}<li class="tablet:grid-col-auto mobile-lg:grid-col-12   usa-footer__primary-content">
           <a class="usa-footer__primary-link" href="{{ f.href }}">{{ f.title }}</a>
         </li>
         {% endfor %}
       </ul>
+      <div class="grid-col-auto befree-callout">
+        <p>Learn More <br> @BeTobaccoFree.gov</p>
+      </div>
     </nav>
   </div>
   <div class="usa-footer__secondary-section">
@@ -26,9 +30,6 @@
         >
           <div class="mobile-lg:grid-col-auto">
             <img class="usa-footer__logo-img" src="{{ settings.sitelogo-small }}" alt="" />
-          </div>
-          <div class="mobile-lg:grid-col-auto">
-            <p class="usa-footer__logo-heading">{{ settings.sitename }}</p>
           </div>
         </div>{% if prototype %}
         <div class="usa-footer__contact-links mobile-lg:grid-col-6">
@@ -44,19 +45,6 @@
             </div>
           {% endfor %}
           </div>
-          <p class="usa-footer__contact-heading">
-            {{ settings.agencycontent }}
-          </p>
-          <address class="usa-footer__address">
-            <div class="usa-footer__contact-info grid-row grid-gap">
-              <div class="grid-col-auto">
-                <a href="tel:{{ settings.sitephone }}">{{ settings.sitephone }}</a>
-              </div>
-              <div class="grid-col-auto">
-                <a href="{{ settings.siteemail }}">{{ settings.siteemail }}</a>
-              </div>
-            </div>
-          </address>
         </div>{% endif %}
       </div>
     </div>
