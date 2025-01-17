@@ -20,8 +20,10 @@ alert:
   <title>{{ title }} - {{ settings.sitename }}</title>
 </head>
 <body>
-  {% if prototype %}
+  {% if template %}
   {% include 'patterns/sitealert.md' %}
+  {% endif %}
+  {% if prototype %}
   {% include 'patterns/banner.md' %}
   {% endif %}
   {% include 'patterns/header.md' %}

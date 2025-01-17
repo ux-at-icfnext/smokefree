@@ -4,6 +4,7 @@ title: Landing Page Template
 summary: Landing pages are used to help navigation pathways to topic based areas of the site
 
 prototype: true
+template: true
 alert: 
   content: please see the <a href="/library/specs/landing">specifications</a> page for this template
 
