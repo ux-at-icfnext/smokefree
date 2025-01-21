@@ -13,11 +13,14 @@ foot:
 
 social:
   - icon: /assets/img/usa-icons/facebook.svg
+    svg: /assets/img/sprite.svg#facebook
     alt: "Facebook"
     link: /
   - icon: /assets/img/usa-icons/twitter.svg
+    svg: /assets/img/sprite.svg#twitter
     alt: "Twitter"
     link: /
   - icon: /assets/img/usa-icons/instagram.svg
     alt: "Instagram"
+    svg: /assets/img/sprite.svg#instagram
     link: /

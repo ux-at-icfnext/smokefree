@@ -28,7 +28,7 @@
         <div
           class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2"
         >
-          <div class="mobile-lg:grid-col-auto">
+          <div class="">
             <img class="usa-footer__logo-img" src="{{ settings.sitelogo-small }}" alt="" />
           </div>
         </div>{% if prototype %}
@@ -37,11 +37,9 @@
           {% for s in nav-foot.social %}
             <div class="grid-col-auto">
               <a class="usa-social-link" href="{{ s.link }}"
-                ><img
-                  class="usa-social-link__icon"
-                  src="{{ s.icon }}"
-                  alt="{{ s.alt }}"
-              /></a>
+                >
+                <svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{ s.svg }}"></use> </svg>
+              </a>
             </div>
           {% endfor %}
           </div>
