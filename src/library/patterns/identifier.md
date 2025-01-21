@@ -4,13 +4,24 @@ title: Identifier
 tags: patterns
 summary: The identifier communicates a site’s parent agency and displays agency links required by federal laws and policies.
 
+branded: true
 date: 2024-08-18
 ---
 
 ## Design
 {% include 'patterns/identifier.md' %}
 
+## Additional Links
+Along with the GSA required links, these links were also added to that section.
+- Players & Viewers: https://www.hhs.gov/web/policies-and-standards/hhs-web-policies/plugins/index.html
+- HHS Vunerablity Disclosure: https://www.hhs.gov/vulnerability-disclosure-policy/index.html?cid=eb_govdel
+- Disclaimers: https://smokefree.gov/disclaimer
+
+
+
 ## Theme Settings
+We didn't need to update the out of box settings to match the site. These are listed here for reference.
+
 - `$theme-identifier-background-color` The background color of the identifier. Use a color of grade 80 or higher, darker than the section that precedes it.
 - `$theme-identifier-font-family` The font family of the identifier.
 - `$theme-identifier-identity-domain-color` The color of your domain text in the identifier masthead. This should be grade 20-30 in the same family as the `$theme-identifier-background-color`.

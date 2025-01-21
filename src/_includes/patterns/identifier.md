@@ -50,7 +50,7 @@
           >
         </li>
         <li class="usa-identifier__required-links-item">
-          <a href="" class="usa-identifier__required-link usa-link no-icon"
+          <a href="https://www.hhs.gov/about/agencies/asa/eeo/no-fear-act/index.html" class="usa-identifier__required-link usa-link no-icon"
             >No FEAR Act data</a
           >
         </li>
