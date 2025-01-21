@@ -10,6 +10,7 @@
   </div>
   <div class="footer-tagline">NIH... Turning Discovery into Health®</div>
   <div class="usa-footer__primary-section">
+    <div class="grid-container">
     <nav class="usa-footer__nav grid-row grid-gap" aria-label="Footer navigation">
       <ul class="grid-row grid-gap grid-col-10">
         {% for f in foot %}<li class="tablet:grid-col-auto mobile-lg:grid-col-12   usa-footer__primary-content">
@@ -21,6 +22,7 @@
         <p>Learn More <br> @BeTobaccoFree.gov</p>
       </div>
     </nav>
+    </div>
   </div>
   <div class="usa-footer__secondary-section">
     <div class="grid-container">
