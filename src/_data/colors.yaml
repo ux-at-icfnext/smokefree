@@ -19,5 +19,8 @@
 - value: '#737373'
   token: 'accent-warm-darker'
   cat: 'accent'
+- value: '#00deb4'
+  token: 'mint'
+  cat: 'basic'
 
 
