@@ -10,6 +10,7 @@ image: /library/templates/imgs/alice-teaparty.png
 tags: templates
 
 prototype: true
+template: true
 alert: 
   content: please see the <a href="/library/specs/article">specifications</a> page for this template
 

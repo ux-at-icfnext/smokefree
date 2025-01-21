@@ -1,6 +1,6 @@
 sitename: Smokefree Library
-sitelogo: https://smokefree.gov/themes/custom/smokefree/images/header/smokefree-gov.png
-sitelogo-small: https://smokefree.gov/themes/custom/smokefree/images/header/smokefree-gov.png
+sitelogo: /assets/images/logo-black.png
+sitelogo-small: /assets/images/logo-white.png
 sitedomain: oursite.gov
 siteemail: info@oursite.gov
 sitephone: 800-555-1GOV

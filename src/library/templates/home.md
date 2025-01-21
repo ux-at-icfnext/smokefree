@@ -4,6 +4,7 @@ title: Home
 summary: Home Landing page
 
 prototype: true
+template: true
 alert: 
   content: please see the <a href="/library/specs/home">specifications</a> page for this template
 
