@@ -8,7 +8,9 @@
   <div class="grid-container usa-footer__return-to-top">
     <a href="#">Return to top</a>
   </div>
+  {% if prototype %}
   <div class="footer-tagline">NIH... Turning Discovery into Health®</div>
+  {% endif %}
   <div class="usa-footer__primary-section">
     <div class="grid-container">
     <nav class="usa-footer__nav grid-row grid-gap" aria-label="Footer navigation">
@@ -18,9 +20,11 @@
         </li>
         {% endfor %}
       </ul>
+      {% if prototype %}
       <div class="grid-col-auto befree-callout">
         <p>Learn More <br> @BeTobaccoFree.gov</p>
       </div>
+      {% endif %}
     </nav>
     </div>
   </div>
