@@ -11,6 +11,10 @@ date: 2024-08-18
 ## Design
 {% include 'patterns/identifier.md' %}
 
+## Required links
+GSA has links that are required to go into this section. Please view [digital.gov](https://digital.gov/resources/required-web-content-and-links/?_gl=1*17f69hv*_ga*MjA5MjY0NzMyMC4xNzM3NDgxNjU5*_ga_HBYXWFP794*MTczNzQ4NjA1Mi4yLjEuMTczNzQ4ODM2NS4wLjAuMA..}) to learn more.
+
+
 ## Additional Links
 Along with the GSA required links, these links were also added to that section.
 - Players & Viewers: https://www.hhs.gov/web/policies-and-standards/hhs-web-policies/plugins/index.html

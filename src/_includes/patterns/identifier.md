@@ -26,15 +26,15 @@
       <ul class="usa-identifier__required-links-list">
         <li class="usa-identifier__required-links-item">
           About <a
-            href="javascript:void(0)"
+            href="https://www.hhs.gov/about/index.html"
             class="usa-identifier__required-link usa-link no-icon"
             >HHS</a
           >, <a
-            href="javascript:void(0)"
+            href="https://www.nih.gov/about-nih"
             class="usa-identifier__required-link usa-link no-icon"
             >NIH</a
           >, <a
-            href="javascript:void(0)"
+            href="https://www.cancer.gov/about-nci"
             class="usa-identifier__required-link usa-link no-icon"
             >NCI</a
           >
@@ -55,7 +55,7 @@
           >
         </li>
         <li class="usa-identifier__required-links-item">
-          <a href="" class="usa-identifier__required-link usa-link no-icon"
+          <a href="https://oig.hhs.gov/" class="usa-identifier__required-link usa-link no-icon"
             >Office of the Inspector General</a
           >
         </li>
