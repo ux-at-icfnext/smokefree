@@ -2,14 +2,15 @@
 
 .usa-footer{
   .footer-tagline{
-    text-align: center;
-    background-color: #383838;
+    @include u-text('center');
+    @include u-bg('base-dark');
+    @include u-border-bottom('base-darker');
     @include u-text('white');
     @include u-padding(1);
     @include u-font('serif', 'md')
   }
   .usa-footer__primary-section, .usa-footer__secondary-section  {
-    background-color: #333;
+    @include u-bg('base-dark');
     a {
       @include u-text('white');
       &:hover{

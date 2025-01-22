@@ -84,7 +84,7 @@
     line-height: 1.42857;
     letter-spacing: 5.6px;
     @include u-text('white');
-    @include u-bg('accent-warm-darker');    
+    @include u-bg('base');    
     text-align: center;
     height: 40px;
     @include u-padding(1);
@@ -106,7 +106,7 @@
   }
   .quitnote-title {
     @include u-text('white');
-    @include u-bg('accent-warm-darker');
+    @include u-bg('accent-warm');
     @include u-font('serif', 'lg');
     @include u-text('semibold');
     text-align: center;
