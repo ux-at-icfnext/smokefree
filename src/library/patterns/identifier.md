@@ -14,9 +14,18 @@ date: 2024-08-18
 ## Required links
 GSA has links that are required to go into this section. Please view [digital.gov](https://digital.gov/resources/required-web-content-and-links/?_gl=1*17f69hv*_ga*MjA5MjY0NzMyMC4xNzM3NDgxNjU5*_ga_HBYXWFP794*MTczNzQ4NjA1Mi4yLjEuMTczNzQ4ODM2NS4wLjAuMA..}) to learn more.
 
+- About HHS: [https://www.hhs.gov/about/index.html](https://www.hhs.gov/about/index.html)  
+- About NIH: [https://www.nih.gov/about-nih](https://www.nih.gov/about-nih)  
+- About NCI: [https://www.cancer.gov/about-nci](https://www.cancer.gov/about-nci)  
+- Accessibility statement: [https://smokefree.gov/accessibility](https://smokefree.gov/accessibility)  
+- FOIA requests: [https://www.cancer.gov/policies/foia](https://www.cancer.gov/policies/foia)  
+- No FEAR Act data: [https://www.hhs.gov/about/agencies/asa/eeo/no-fear-act/index.html](https://www.hhs.gov/about/agencies/asa/eeo/no-fear-act/index.html)  
+- Office of the Inspector General: [https://oig.hhs.gov/](https://oig.hhs.gov/)  
+- Performance reports: tbd  
+- Privacy policy: [https://smokefree.gov/privacy-policy](https://smokefree.gov/privacy-policy)  
 
 ## Additional Links
-Along with the GSA required links, these links were also added to that section.
+Along with the GSA required links, these links were also added to that section from the former Smokefree footer.
 - Players & Viewers: https://www.hhs.gov/web/policies-and-standards/hhs-web-policies/plugins/index.html
 - HHS Vunerablity Disclosure: https://www.hhs.gov/vulnerability-disclosure-policy/index.html?cid=eb_govdel
 - Disclaimers: https://smokefree.gov/disclaimer
