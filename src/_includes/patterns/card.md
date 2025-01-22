@@ -38,6 +38,7 @@
 {% endif %}
 {% if c.body %}
 <div class="usa-card__body">
+
 {{ c.body | markdownify }}
 </div>
 {% endif %}
