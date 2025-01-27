@@ -47,10 +47,21 @@
     .usa-button{
         background-color: transparent;
     }
+    .usa-menu-btn{
+        background-color: transparent;
+    }
 }
 @media (min-width: 64em) {
     .header-sf .usa-navbar {
         width: unset;
     }
+}
 
+@media (max-width: 63.99em){
+    .header-sf .usa-navbar{
+        background-color: #2a2a2a;
+    }
+    .header-sf span{
+        color: white;
+    }
 }

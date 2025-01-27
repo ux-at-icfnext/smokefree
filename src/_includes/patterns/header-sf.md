@@ -3,6 +3,7 @@
   <div class="usa-nav-container">
     <div class="usa-navbar">
       <button type="button" class="usa-menu-btn">Menu</button>
+      <span class="mobile-search">Search</span>
     </div>
     <nav aria-label="Primary navigation" class="usa-nav">
       <button type="button" class="usa-nav__close">
