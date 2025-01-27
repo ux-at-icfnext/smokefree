@@ -140,6 +140,16 @@
     display: none;
 }
 
+.sf_homepage_4boxes__wrapper #expanded_btn__I-Want-to-Quit .text-wrapper h3, .sf_homepage_4boxes__wrapper #expanded_btn__My-Quit-Day .text-wrapper h3, .sf_homepage_4boxes__wrapper #expanded_btn__Newly-Quit .text-wrapper h3, .sf_homepage_4boxes__wrapper #expanded_btn__Staying-Quit .text-wrapper h3 {
+    margin: 0 0 5px 0;
+    text-align: left;
+    font-size: 21px;
+}
+
+.sf_homepage_4boxes__wrapper #expanded_btn__I-Want-to-Quit .text-wrapper .description, .sf_homepage_4boxes__wrapper #expanded_btn__My-Quit-Day .text-wrapper .description, .sf_homepage_4boxes__wrapper #expanded_btn__Newly-Quit .text-wrapper .description, .sf_homepage_4boxes__wrapper #expanded_btn__Staying-Quit .text-wrapper .description {
+    text-align: left;
+}
+
 .sf_homepage_4boxes__wrapper #expanded_btn__I-Want-to-Quit {
     background-image: url(/themes/custom/smokefree_gov/images/lightbulb.png);
     background-size: 219px 218px;
@@ -187,7 +197,7 @@
     margin-top: 15px;
     border: 0;
     display: block;
-    background-image: url(/themes/custom/smokefree_gov/images/arrow-up-2x.png);
+    background-image: url(/src/assets/img/arrow-down-2x.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 20px 25px;
@@ -227,5 +237,11 @@
     }
     .sf_homepage_4boxes__wrapper #expanded_btn__I-Want-to-Quit, .sf_homepage_4boxes__wrapper #expanded_btn__My-Quit-Day, .sf_homepage_4boxes__wrapper #expanded_btn__Newly-Quit, .sf_homepage_4boxes__wrapper #expanded_btn__Staying-Quit {
         top: 115px;
+    }
+    .sf_homepage_4boxes__wrapper #expanded_btn__I-Want-to-Quit .content-wrapper, .sf_homepage_4boxes__wrapper #expanded_btn__My-Quit-Day .content-wrapper, .sf_homepage_4boxes__wrapper #expanded_btn__Newly-Quit .content-wrapper, .sf_homepage_4boxes__wrapper #expanded_btn__Staying-Quit .content-wrapper {
+        height: 235px;
+    }
+    .sf_homepage_4boxes__wrapper #expanded_btn__I-Want-to-Quit .text-wrapper, .sf_homepage_4boxes__wrapper #expanded_btn__My-Quit-Day .text-wrapper, .sf_homepage_4boxes__wrapper #expanded_btn__Newly-Quit .text-wrapper, .sf_homepage_4boxes__wrapper #expanded_btn__Staying-Quit .text-wrapper {
+        height: 130px;
     }
 }
