@@ -20,8 +20,7 @@ GSA has links that are required to go into this section. Please view [digital.go
 - Accessibility statement: [https://smokefree.gov/accessibility](https://smokefree.gov/accessibility)  
 - FOIA requests: [https://www.cancer.gov/policies/foia](https://www.cancer.gov/policies/foia)  
 - No FEAR Act data: [https://www.hhs.gov/about/agencies/asa/eeo/no-fear-act/index.html](https://www.hhs.gov/about/agencies/asa/eeo/no-fear-act/index.html)  
-- Office of the Inspector General: [https://oig.hhs.gov/](https://oig.hhs.gov/)  
-- Performance reports: tbd  
+- Office of the Inspector General: [https://oig.hhs.gov/](https://oig.hhs.gov/)   
 - Privacy policy: [https://smokefree.gov/privacy-policy](https://smokefree.gov/privacy-policy)  
 
 ## Additional Links
