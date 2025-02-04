@@ -60,11 +60,6 @@
           >
         </li>
         <li class="usa-identifier__required-links-item">
-          <a href="" class="usa-identifier__required-link usa-link no-icon"
-            >Performance reports</a
-          >
-        </li>
-        <li class="usa-identifier__required-links-item">
           <a href="https://smokefree.gov/privacy-policy" class="usa-identifier__required-link usa-link no-icon"
             >Privacy policy</a
           >
