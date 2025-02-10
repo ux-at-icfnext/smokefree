@@ -1,0 +1,257 @@
+.sf-homepage-4boxes {
+    height: 180px;
+    margin-bottom: 80px;
+    display: block;
+    position: relative;
+    margin-top: 20px;
+}
+.waypoint {
+    width: 24%;
+    display: inline-block;
+    margin-right: 0.5%;
+}
+.sf_homepage_4boxes__wrapper {
+    display: block;
+    position: relative;
+}
+.sf_homepage_4boxes__wrapper #btn__I-Want-to-Quit, .sf_homepage_4boxes__wrapper #btn__My-Quit-Day, .sf_homepage_4boxes__wrapper #btn__Newly-Quit, .sf_homepage_4boxes__wrapper #btn__Staying-Quit {
+    width: 100%;
+    height: 180px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 15px 40px 15px 15px;
+    border: 0;
+    color: white;
+    border-radius: 0px;
+    transition: all 0.3s;
+}
+
+.btn, .page-node-type-quit-notes .content .field--name-field-featured-image .field--name-field-promo-image-url a, .page-node-type-quit-notes .content .right-content .field--name-field-promo-image-url a {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.sf_homepage_4boxes__wrapper #btn__I-Want-to-Quit {
+    background-image: url(/themes/custom/smokefree_gov/images/lightbulb.png);
+    background-color: #1f7a21 !important;
+    background-size: 219px 218px;
+    background-repeat: no-repeat;
+    background-position: 100px 15px;
+}
+.sf_homepage_4boxes__wrapper #btn__My-Quit-Day {
+    background: url(/themes/custom/smokefree_gov/images/bullseye.png);
+    background-color: #53336f !important;
+    background-size: 219px 205px;
+    background-repeat: no-repeat;
+    background-position: 90px 20px;
+}
+.sf_homepage_4boxes__wrapper #btn__Newly-Quit {
+    background-image: url(/themes/custom/smokefree_gov/images/hourglass.png);
+    background-color: #b65e00 !important;
+    background-size: 148px 257px;
+    background-repeat: no-repeat;
+    background-position: 150px 48px;
+}
+.sf_homepage_4boxes__wrapper #btn__Staying-Quit {
+    background-image: url(/themes/custom/smokefree_gov/images/chart.png);
+    background-color: #931f45 !important;
+    background-size: 205px 206px;
+    background-repeat: no-repeat;
+    background-position: 90px 40px;
+}
+
+.sf_homepage_4boxes__wrapper #btn__I-Want-to-Quit .text-wrapper, .sf_homepage_4boxes__wrapper #btn__My-Quit-Day .text-wrapper, .sf_homepage_4boxes__wrapper #btn__Newly-Quit .text-wrapper, .sf_homepage_4boxes__wrapper #btn__Staying-Quit .text-wrapper {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+
+.sf_homepage_4boxes__wrapper #btn__I-Want-to-Quit .expand-box, .sf_homepage_4boxes__wrapper #btn__My-Quit-Day .expand-box, .sf_homepage_4boxes__wrapper #btn__Newly-Quit .expand-box, .sf_homepage_4boxes__wrapper #btn__Staying-Quit .expand-box {
+    transition: all 0.3s;
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-image: url(/src/assets/img/arrow-down-2x.png);
+    background-color: rgba(0, 0, 0, 0.15);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 0px 0px;
+}
+
+.sf_homepage_4boxes__wrapper #btn__I-Want-to-Quit .text-wrapper h2, .sf_homepage_4boxes__wrapper #btn__My-Quit-Day .text-wrapper h2, .sf_homepage_4boxes__wrapper #btn__Newly-Quit .text-wrapper h2, .sf_homepage_4boxes__wrapper #btn__Staying-Quit .text-wrapper h2 {
+    text-align: left;
+    margin: 0;
+    white-space: normal;
+    color: white;
+    font-size: 29px;
+    font-weight: 500;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.sf_homepage_4boxes__wrapper #expanded_btn__I-Want-to-Quit, .sf_homepage_4boxes__wrapper #expanded_btn__My-Quit-Day, .sf_homepage_4boxes__wrapper #expanded_btn__Newly-Quit, .sf_homepage_4boxes__wrapper #expanded_btn__Staying-Quit {
+    top: 115px;
+}
+
+.sf_homepage_4boxes__wrapper #expanded_btn__I-Want-to-Quit, .sf_homepage_4boxes__wrapper #expanded_btn__My-Quit-Day, .sf_homepage_4boxes__wrapper #expanded_btn__Newly-Quit, .sf_homepage_4boxes__wrapper #expanded_btn__Staying-Quit {
+    transition: all 0.3s;
+    position: absolute;
+    top: 165px;
+    z-index: 99;
+    width: 100%;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.15);
+}
+
+.collapse.in {
+    display: block;
+}
+
+.collapse {
+    display: none;
+}
+
+.sf_homepage_4boxes__wrapper #expanded_btn__I-Want-to-Quit .text-wrapper h3, .sf_homepage_4boxes__wrapper #expanded_btn__My-Quit-Day .text-wrapper h3, .sf_homepage_4boxes__wrapper #expanded_btn__Newly-Quit .text-wrapper h3, .sf_homepage_4boxes__wrapper #expanded_btn__Staying-Quit .text-wrapper h3 {
+    margin: 0 0 5px 0;
+    text-align: left;
+    font-size: 21px;
+}
+
+.sf_homepage_4boxes__wrapper #expanded_btn__I-Want-to-Quit .text-wrapper .description, .sf_homepage_4boxes__wrapper #expanded_btn__My-Quit-Day .text-wrapper .description, .sf_homepage_4boxes__wrapper #expanded_btn__Newly-Quit .text-wrapper .description, .sf_homepage_4boxes__wrapper #expanded_btn__Staying-Quit .text-wrapper .description {
+    text-align: left;
+}
+
+.sf_homepage_4boxes__wrapper #expanded_btn__I-Want-to-Quit {
+    background-image: url(/themes/custom/smokefree_gov/images/lightbulb.png);
+    background-size: 219px 218px;
+    background-position: 100px -165px;
+    background-repeat: no-repeat;
+    background-color: white!important;
+}
+.sf_homepage_4boxes__wrapper #expanded_btn__I-Want-to-Quit .content-wrapper, .sf_homepage_4boxes__wrapper #expanded_btn__My-Quit-Day .content-wrapper, .sf_homepage_4boxes__wrapper #expanded_btn__Newly-Quit .content-wrapper, .sf_homepage_4boxes__wrapper #expanded_btn__Staying-Quit .content-wrapper {
+    padding: 15px 15px 0px 15px;
+    height: 215px;
+    background-color: white!important;
+}
+.sf_homepage_4boxes__wrapper #expanded_btn__I-Want-to-Quit .text-wrapper, .sf_homepage_4boxes__wrapper #expanded_btn__My-Quit-Day .text-wrapper, .sf_homepage_4boxes__wrapper #expanded_btn__Newly-Quit .text-wrapper, .sf_homepage_4boxes__wrapper #expanded_btn__Staying-Quit .text-wrapper {
+    height: 110px;
+}
+.sf_homepage_4boxes__wrapper #expanded_btn__I-Want-to-Quit .text-wrapper .description, .sf_homepage_4boxes__wrapper #expanded_btn__My-Quit-Day .text-wrapper .description, .sf_homepage_4boxes__wrapper #expanded_btn__Newly-Quit .text-wrapper .description, .sf_homepage_4boxes__wrapper #expanded_btn__Staying-Quit .text-wrapper .description {
+    text-align: left;
+}
+.sf_homepage_4boxes__wrapper #expanded_btn__I-Want-to-Quit .buttons, .sf_homepage_4boxes__wrapper #expanded_btn__My-Quit-Day .buttons, .sf_homepage_4boxes__wrapper #expanded_btn__Newly-Quit .buttons, .sf_homepage_4boxes__wrapper #expanded_btn__Staying-Quit .buttons {
+    margin-top: 10px;
+    text-align: center;
+}
+.sf_homepage_4boxes__wrapper .btn-new {
+    transition: all .3s;
+}
+.sf_homepage_4boxes__wrapper .btn-default-new {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .02em;
+    padding: 6px 16px;
+    border: 1px solid #087599;
+    border-radius: 0;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #087599;
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.sf_homepage_4boxes__wrapper #expanded_btn__I-Want-to-Quit .collapse-box, .sf_homepage_4boxes__wrapper #expanded_btn__My-Quit-Day .collapse-box, .sf_homepage_4boxes__wrapper #expanded_btn__Newly-Quit .collapse-box, .sf_homepage_4boxes__wrapper #expanded_btn__Staying-Quit .collapse-box {
+    transition: all 0.3s;
+    width: 100%;
+    height: 45px;
+    margin-top: 15px;
+    border: 0;
+    display: block;
+    background-image: url(/src/assets/img/arrow-down-2x.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 20px 25px;
+}
+.sf_homepage_4boxes__wrapper #expanded_btn__I-Want-to-Quit .collapse-box {
+    background-color: #175b19;
+}
+.sf_homepage_4boxes__wrapper #expanded_btn__My-Quit-Day .collapse-box {
+    background-color: #53336f !important;
+}
+.sf_homepage_4boxes__wrapper #expanded_btn__Newly-Quit .collapse-box {
+    background-color: #b65e00 !important;
+}
+.sf_homepage_4boxes__wrapper #expanded_btn__Staying-Quit .collapse-box {
+    background-color: #931f45 !important;
+}
+
+#btn__I-Want-to-Quit:target {
+    display: none;
+}
+
+.sf_homepage_4boxes__wrapper #btn__I-Want-to-Quit.open .expand-box, .sf_homepage_4boxes__wrapper #btn__My-Quit-Day.open .expand-box, .sf_homepage_4boxes__wrapper #btn__Newly-Quit.open .expand-box, .sf_homepage_4boxes__wrapper #btn__Staying-Quit.open .expand-box {
+    height: 0px;
+    background-size: 0px 0px;
+}
+
+@media (max-width: 1200px) {
+    .sf-homepage-4boxes {
+        height: 130px;
+        margin-bottom: 50px;
+    }
+    .sf_homepage_4boxes__wrapper #btn__I-Want-to-Quit {
+        background-size: 140px auto;
+        background-position: 100px 15px;
+    }
+    .sf_homepage_4boxes__wrapper #btn__I-Want-to-Quit, .sf_homepage_4boxes__wrapper #btn__My-Quit-Day, .sf_homepage_4boxes__wrapper #btn__Newly-Quit, .sf_homepage_4boxes__wrapper #btn__Staying-Quit {
+        height: 130px;
+    }
+    .sf_homepage_4boxes__wrapper #btn__I-Want-to-Quit .text-wrapper h2, .sf_homepage_4boxes__wrapper #btn__My-Quit-Day .text-wrapper h2, .sf_homepage_4boxes__wrapper #btn__Newly-Quit .text-wrapper h2, .sf_homepage_4boxes__wrapper #btn__Staying-Quit .text-wrapper h2 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .sf_homepage_4boxes__wrapper #expanded_btn__I-Want-to-Quit {
+        background-size: 140px auto;
+        background-position: 100px -115px;
+    }
+    .sf_homepage_4boxes__wrapper #expanded_btn__I-Want-to-Quit, .sf_homepage_4boxes__wrapper #expanded_btn__My-Quit-Day, .sf_homepage_4boxes__wrapper #expanded_btn__Newly-Quit, .sf_homepage_4boxes__wrapper #expanded_btn__Staying-Quit {
+        top: 115px;
+    }
+    .sf_homepage_4boxes__wrapper #expanded_btn__I-Want-to-Quit .content-wrapper, .sf_homepage_4boxes__wrapper #expanded_btn__My-Quit-Day .content-wrapper, .sf_homepage_4boxes__wrapper #expanded_btn__Newly-Quit .content-wrapper, .sf_homepage_4boxes__wrapper #expanded_btn__Staying-Quit .content-wrapper {
+        height: 235px;
+    }
+    .sf_homepage_4boxes__wrapper #expanded_btn__I-Want-to-Quit .text-wrapper, .sf_homepage_4boxes__wrapper #expanded_btn__My-Quit-Day .text-wrapper, .sf_homepage_4boxes__wrapper #expanded_btn__Newly-Quit .text-wrapper, .sf_homepage_4boxes__wrapper #expanded_btn__Staying-Quit .text-wrapper {
+        height: 130px;
+    }
+}
