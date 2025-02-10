@@ -155,11 +155,12 @@
     background-size: 219px 218px;
     background-position: 100px -165px;
     background-repeat: no-repeat;
-    background-color: white;
+    background-color: white!important;
 }
 .sf_homepage_4boxes__wrapper #expanded_btn__I-Want-to-Quit .content-wrapper, .sf_homepage_4boxes__wrapper #expanded_btn__My-Quit-Day .content-wrapper, .sf_homepage_4boxes__wrapper #expanded_btn__Newly-Quit .content-wrapper, .sf_homepage_4boxes__wrapper #expanded_btn__Staying-Quit .content-wrapper {
     padding: 15px 15px 0px 15px;
     height: 215px;
+    background-color: white!important;
 }
 .sf_homepage_4boxes__wrapper #expanded_btn__I-Want-to-Quit .text-wrapper, .sf_homepage_4boxes__wrapper #expanded_btn__My-Quit-Day .text-wrapper, .sf_homepage_4boxes__wrapper #expanded_btn__Newly-Quit .text-wrapper, .sf_homepage_4boxes__wrapper #expanded_btn__Staying-Quit .text-wrapper {
     height: 110px;
@@ -204,6 +205,15 @@
 }
 .sf_homepage_4boxes__wrapper #expanded_btn__I-Want-to-Quit .collapse-box {
     background-color: #175b19;
+}
+.sf_homepage_4boxes__wrapper #expanded_btn__My-Quit-Day .collapse-box {
+    background-color: #53336f !important;
+}
+.sf_homepage_4boxes__wrapper #expanded_btn__Newly-Quit .collapse-box {
+    background-color: #b65e00 !important;
+}
+.sf_homepage_4boxes__wrapper #expanded_btn__Staying-Quit .collapse-box {
+    background-color: #931f45 !important;
 }
 
 #btn__I-Want-to-Quit:target {

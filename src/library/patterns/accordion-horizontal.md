@@ -6,14 +6,14 @@ summary: An accordion is a list of headers that hide or reveal additional conten
 
 date: 2024-08-02
 
-include: "{% include 'patterns/accordion-horizontal.md' %}"
+include: "{% include 'patterns/accordion-horizontal.html' %}"
 
 ---
 
 ## Design
 ### Default Accordion
 
-{% include "patterns/accordion-horizontal.md" %}
+{% include "patterns/accordion-horizontal.html" %}
 
 
 ## Theme Settings
