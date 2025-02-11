@@ -1,8 +1,8 @@
 <div class="sf-homepage-4boxes">
       <div class="view-content">
           <div class="waypoint">
-              <div class="sf_homepage_4boxes__wrapper hp-button open">
-                      <button class="btn btn-primary open" id="btn__I-Want-to-Quit" type="button" onclick="toggleBoxOne()">    
+              <div class="sf_homepage_4boxes__wrapper hp-button">
+                      <button class="btn btn-primary collapsed" id="btn__I-Want-to-Quit" type="button" onclick="toggleBoxOne()">    
                       <div class="text-wrapper">          
                           <h2>
                               <div class="field-content">
@@ -15,7 +15,7 @@
                           <span class="sr-only">Expand</span>
                       </div>
                           </button>
-                  <div class="collapse in" id="expanded_btn__I-Want-to-Quit">
+                  <div class="collapse" id="expanded_btn__I-Want-to-Quit">
                       <div class="content-wrapper">
                           <div class="text-wrapper">
                               <div class="field-content">
@@ -33,7 +33,7 @@
                           </div>
                       </div>
                       <!-- /.content-wrapper -->
-                          <button class="collapse-box"><span class="sr-only">Close</span></button>
+                          <button onclick="closeBoxOne()" class="collapse-box"><span class="sr-only">Close</span></button>
                   </div>
               </div>
               <!-- /.sf_homepage_4boxes__wrapper -->
@@ -53,7 +53,7 @@
                           <span class="sr-only">Expand</span>
                       </div>
                           </button>
-                  <div class="collapse" style="height: 0px;" id="expanded_btn__My-Quit-Day" aria-expanded="false">
+                  <div class="collapse" id="expanded_btn__My-Quit-Day" aria-expanded="false">
                       <div class="content-wrapper">
                           <div class="text-wrapper">
                               <div class="field-content">
@@ -71,7 +71,7 @@
                           </div>
                       </div>
                       <!-- /.content-wrapper -->
-                          <button class="collapse-box"><span class="sr-only">Close</span></button>
+                          <button onclick="closeBoxTwo()" class="collapse-box"><span class="sr-only">Close</span></button>
                   </div>
               </div>
               <!-- /.sf_homepage_4boxes__wrapper -->
@@ -91,7 +91,7 @@
                           <span class="sr-only">Expand</span>
                       </div>
                           </button>
-                  <div class="collapse" style="height:0px;" id="expanded_btn__Newly-Quit" aria-expanded="false">
+                  <div class="collapse" id="expanded_btn__Newly-Quit" aria-expanded="false">
                       <div class="content-wrapper">
                           <div class="text-wrapper">
                               <div class="field-content">
@@ -109,7 +109,7 @@
                           </div>
                       </div>
                       <!-- /.content-wrapper -->
-                          <button class="collapse-box"><span class="sr-only">Close</span></button>
+                          <button onclick="closeBoxThree()" class="collapse-box"><span class="sr-only">Close</span></button>
                   </div>
               </div>
               <!-- /.sf_homepage_4boxes__wrapper -->
@@ -129,7 +129,7 @@
                           <span class="sr-only">Expand</span>
                       </div>
                           </button>
-                  <div class="collapse" style="height:0px;" id="expanded_btn__Staying-Quit" aria-expanded="false">
+                  <div class="collapse" id="expanded_btn__Staying-Quit" aria-expanded="false">
                       <div class="content-wrapper">
                           <div class="text-wrapper">
                               <div class="field-content">
@@ -147,7 +147,7 @@
                           </div>
                       </div>
                       <!-- /.content-wrapper -->
-                          <button class="collapse-box"><span class="sr-only">Close</span></button>
+                          <button onclick="closeBoxFour()" class="collapse-box"><span class="sr-only">Close</span></button>
                   </div>
               </div>
               <!-- /.sf_homepage_4boxes__wrapper -->
