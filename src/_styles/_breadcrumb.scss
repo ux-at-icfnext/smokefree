@@ -1,0 +1,11 @@
+.usa-breadcrumb__list-item:not(:last-child)::after {
+    content: "/ ";
+    padding: 0 5px;
+    color: #ccc;
+    -webkit-mask-image: none;
+    background-color: transparent;
+}
+
+.usa-breadcrumb{
+    color: #737373;
+}
