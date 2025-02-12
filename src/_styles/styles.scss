@@ -8,6 +8,7 @@
 @use "title";
 @use "tools-tips";
 @use "accordion-horizontal";
+@use "breadcrumb";
 
 a[href^="http"]:not(.no-icon)::after,
 a[href^="https://"]:not(.no-icon)::after {
