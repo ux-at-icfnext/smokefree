@@ -1,0 +1,102 @@
+header#navbar {
+    background-color: #000;
+    border: 0;
+    border-radius: 0;
+    width: 100% !important;
+    max-width: 100%;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+    min-height: 2px !important;
+    transition: height .2s;
+}
+
+.navbar:after, .navbar:before {
+    content: " ";
+    display: table;
+}
+
+nav.TopHat {
+    z-index: 1;
+    margin-bottom: 0;
+    margin-top: 0;
+    background-color: #000;
+    border: 0;
+    border-radius: 0;
+    display: block !important;
+    opacity: 100 !important;
+    transition: max-height .15s;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+.navbar:after, .navbar:before {
+    content: " ";
+    display: table;
+}
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+nav.TopHat .navbar-toggle#toggle-btn {
+    display: flex;
+    align-items: flex-end;
+    padding: 8px 15px;
+    min-height: 47px;
+    background: 0 0;
+}
+
+nav.TopHat .navbar-toggle {
+    text-align: right;
+    border: none;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+nav.TopHat .toggle-message.text {
+    margin-right: 4px;
+}
+
+nav.TopHat .toggle-message {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 600;
+    color: #fff;
+    text-align: right;
+}
+
+nav.TopHat .toggle-message.text.expanded {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: .08em;
+    font-weight: 600;
+    color: #fff;
+    padding-right: 10px;
+    transition: all .2s;
+    margin-bottom: 2px;
+    margin-right: -5px;
+}
+
+@media only screen and (min-width: 1200px) {
+    nav.TopHat .navbar-header {
+        display: none;
+    }
+}
