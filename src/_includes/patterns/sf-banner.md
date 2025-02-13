@@ -1,4 +1,4 @@
-<header class="navbar navbar-default container" id="navbar" role="banner">
+<header class="sf-navbar navbar-default container" id="sf-navbar" role="banner">
     <nav class="navbar navbar-default TopHat sf-smokefree">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -7,43 +7,45 @@
                     <span class="toggle-message text collapsed">Explore the<br>Smokefree Family</span>
                     <span class="toggle-message text expanded">CLOSE</span>
                     <span class="toggle-message graphic">
-                        <img class="toggle-message collapsed" src="/themes/custom/smokefree/images/header/tophat-grid-2x.png" alt="grid" width="40" height="26">
-                        <img class="toggle-message toggle-arrow" src="/themes/custom/smokefree/images/header/tophat-arrow-2x.png" alt="arrow" width="40" height="20">
+                        <img class="toggle-message collapsed" src="/assets/images/tophat-grid-2x.png" alt="grid" width="40" height="26">
+                        <img class="toggle-message toggle-arrow" src="/assets/images/tophat-arrow-2x.png" alt="arrow" width="40" height="20">
                     </span>
                 </button>
-                <a class="navbar-brand collapsed" href="/"><img src="/themes/custom/smokefree/images/header/smokefree-gov.png" alt="smokefree gov" width="139" height="21"></a>
+                <a class="navbar-brand collapsed" href="/">
+                    <img src="/assets/images/smokefree-gov.png" alt="smokefree gov" width="139" height="21">
+                </a>
             </div>
-            <div class="collapse navbar-collapse" id="tophat-navbar-collapse">
+            <div class="navbar-collapse" id="tophat-navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li class="active">
                         <a href="//smokefree.gov" id="smokefree">
-                            <img src="/themes/custom/smokefree/images/header/smokefree.png" alt="smokefree" height="21" width="139">
+                            <img src="/assets/images/smokefree.png" alt="smokefree" height="21" width="139">
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li>
                         <a href="//veterans.smokefree.gov" id="smokefree-veterans">
-                            <img src="/themes/custom/smokefree/images/header/smokefree-veterans.png" alt="smokefree-veterans" height="21" width="129">
+                            <img src="/assets/images/smokefree-veterans.png" alt="smokefree-veterans" height="21" width="129">
                         </a>
                     </li>
                     <li>
                         <a href="//women.smokefree.gov" id="smokefree-women">
-                            <img src="/themes/custom/smokefree/images/header/smokefree-women.png" alt="smokefree-women" height="21" width="167">
+                            <img src="/assets/images/smokefree-women.png" alt="smokefree-women" height="21" width="167">
                         </a>
                     </li>
                     <li>
                         <a href="//teen.smokefree.gov" id="smokefree-teen">
-                            <img src="/themes/custom/smokefree/images/header/smokefree-teen.png" alt="smokefree-teen" height="21" width="141">
+                            <img src="/assets/images/smokefree-teen.png" alt="smokefree-teen" height="21" width="141">
                         </a>
                     </li>
                     <li>
                         <a href="//espanol.smokefree.gov" id="smokefree-espanol">
-                            <img src="/themes/custom/smokefree/images/header/smokefree-espanol.png" alt="smokefree-espanol" height="21" width="168">
+                            <img src="/assets/images/smokefree-espanol.png" alt="smokefree-espanol" height="21" width="168">
                         </a>
                     </li>
                     <li>
                         <a href="//60plus.smokefree.gov" id="smokefree-60+">
-                            <img src="/themes/custom/smokefree/images/header/smokefree-60+.png" alt="smokefree-60+" height="21" width="132">
+                            <img src="/assets/images/smokefree-60+.png" alt="smokefree-60+" height="21" width="132">
                         </a>
                     </li>
                 </ul>
