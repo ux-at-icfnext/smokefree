@@ -5,3 +5,4 @@ permalink: /test
 ---
 
 {% include 'patterns/sf-banner.md' %}
+
