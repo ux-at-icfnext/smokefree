@@ -2,6 +2,7 @@
 layout: "right.md"
 title: Process List
 tags: patterns
+branded: true
 summary: A process list displays the steps or stages of important instructions or processes.
 
 date: 2024-08-26
