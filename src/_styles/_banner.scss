@@ -1,10 +1,4 @@
-.affix {
-    z-index: 206;
-    position: fixed;
-    width: 100%;
-}
-
-header#navbar{
+.sf-banner{
     background-color: #000;
     border: 0;
     border-radius: 0;
@@ -16,7 +10,8 @@ header#navbar{
     min-height: 2px !important;
     transition: height .2s;
 }
-nav.TopHat {
+
+.sf-tophat{
     z-index: 1;
     margin-bottom: 0;
     margin-top: 0;
@@ -27,106 +22,82 @@ nav.TopHat {
     opacity: 100 !important;
     transition: max-height .15s;
 }
-.container-fluid {
+
+.sf-container-fluid{
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
 }
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    border-color: #e7e7e7;
+
+.sf-tophat .sf-navbar-brand{
+    display: none;
+    padding: 15px !important;
 }
-.TopHat.sf-smokefree ul.navbar-nav > .active {
+
+.sf-tophat .sf-navbar-nav .active {
     border-top: 2px solid #9ACAE4;
-}
-nav.TopHat ul.navbar-nav>.active {
     top: 2px;
 }
-nav.TopHat ul.navbar-nav>.active>a {
+
+.sf-tophat .sf-navbar-nav .active a{
     background-color: #2a2a2a;
 }
-nav.TopHat ul.navbar-nav>li>a {
+
+.sf-tophat .sf-navbar-nav li a{
     padding-top: 15px;
     padding-bottom: 14px;
     text-align: center;
 }
-.nav>li>a {
+
+.sf-navbar-nav li a{
     position: relative;
     display: block;
 }
-nav.TopHat ul.navbar-nav>li>a>img {
+
+.sf-tophat .sf-navbar-nav li a img{
     margin-right: auto;
     margin-left: auto;
 }
+.sf-tophat .sf-navbar-nav{
+    background-color: #000;
+    width: 100%;
+}
 
 @media (min-width: 768px) {
-    .navbar.container {
-        max-width: 720px;
+    .sf-navbar-container{
+        // max-width: 720px;
     }
-    .navbar {
-        border-radius: 4px;
-    }
-    .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
-        margin-right: 0;
-        margin-left: 0;
-    }
-    .navbar-collapse.collapse {
-        display: block !important;
-        height: auto !important;
-        padding-bottom: 0;
-        overflow: visible !important;
-    }
-    .navbar-collapse {
-        width: auto;
-        border-top: 0;
-        box-shadow: none;
-    }
-    .navbar-collapse {
-        width: auto;
-        border-top: 0;
-        -webkit-box-shadow: none;
-        box-shadow: none;
-    }
-    .navbar-nav {
+    .sf-navbar-nav{
         float: left;
         margin: 0;
     }
-    .navbar-nav>li {
+    .sf-navbar-nav li{
         float: left;
     }
 }
 
+@media screen and (min-width: 992px) {
+    
+}
+
 @media only screen and (min-width: 1200px) {
-    nav.TopHat .navbar-header {
-        display: none;
-    }
-    nav.TopHat #tophat-navbar-collapse {
-        max-width: 1250px;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 0;
-    }
-    nav.TopHat ul.navbar-nav {
+    .sf-tophat .sf-navbar-nav{
         padding-left: 2.5%;
     }
-    nav.TopHat ul.navbar-nav li, nav.TopHat ul.navbar-nav li>a {
+    .sf-tophat .sf-navbar-nav li, .sf-tophat .sf-navbar-nav li a{
         width: auto !important;
         background-size: 100% 200%;
         transition: background-position .3s;
     }
-    nav.TopHat ul.navbar-nav li>a {
+    .sf-tophat .sf-navbar-nav li a{
         padding-right: 10px;
         padding-left: 10px;
     }
-    nav.TopHat ul.navbar-nav li, nav.TopHat ul.navbar-nav li>a {
-        width: auto !important;
-        background-size: 100% 200%;
-        transition: background-position .3s;
-    }
-    nav.TopHat ul.navbar-nav li:not(.active)>a {
+    .sf-tophat .sf-navbar-nav li:not(.active) a{
         background-color:#000;
     }
-    nav.TopHat ul.navbar-nav li:not(.active)>a:hover{
+    .sf-tophat .sf-navbar-nav li:not(.active) a:hover{
         background-color: #2a2a2a;
     }
 }
