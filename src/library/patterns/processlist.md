@@ -27,7 +27,23 @@ processlist:
 
 {% include "patterns/processlist.md" %}
 
-## Theme Settings
+
+## Smokefree styling
+The process list uses `primary-lighter` for the [color](http://localhost:8080/library/styles/colors/) of the stripe, and it pulls in the default [typography](http://localhost:8080/library/styles/type/).
+
+
+<div class="usa-accordion">
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="e1"
+    >
+      Other USWDS Settings for futuring branding
+    </button>
+  </h4>
+  <div id="e1" class="usa-accordion__content usa-prose">
 These aspects can be set within the theme settings.
 
 - `$theme-process-list-counter-background-color `: Background color of the counter circle.
@@ -46,6 +62,9 @@ These aspects can be set within the theme settings.
 - `$theme-process-list-heading-color `:Color of the heading text.
 - `$theme-process-list-heading-font-family `:Font family of the heading text.
 - `$theme-process-list-heading-font-size `:Font size of the heading text.
+
+  </div>
+</div>
 
 ## Library prototyping notes
 To use the data driven smart pattern, you'll need to set your content in the YAML front matter or in a data file.

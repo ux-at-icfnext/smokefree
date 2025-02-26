@@ -2,6 +2,7 @@
 layout: "right.md"
 title: Collection
 tags: patterns
+branded: true
 summary: A collection displays a compact list of multiple related items like articles or events. The list links each item to its original source.
 
 date: 2024-08-12
@@ -87,9 +88,28 @@ collection-date:
 {% assign collection = collection-date %}
 {% include "patterns/collection.md" %}
 
-## Theme Settings
+## Smokefree styling
+This uses `primary` for the [color](http://localhost:8080/library/styles/colors/) and it pulls in the default [typography](http://localhost:8080/library/styles/type/).
+
+
+
+<div class="usa-accordion">
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="e1"
+    >
+      Other USWDS Settings for futuring branding
+    </button>
+  </h4>
+  <div id="e1" class="usa-accordion__content usa-prose">
+
 - `$theme-collection-font-family` Font family for collection body.
 - `$theme-collection-header-typeset` Family, size, and line height of the heading.
+</div>
+</div>
 
 ## Variations
 - `.usa-collection--condensed` A more condensed item presentation with less space between items.
