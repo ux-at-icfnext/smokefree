@@ -2,6 +2,7 @@
 layout: "right.md"
 title: Breadcrumb
 tags: patterns
+branded: true
 summary: Breadcrumbs provide secondary navigation to help users understand where they are in a website.
 
 date: 2024-08-08
