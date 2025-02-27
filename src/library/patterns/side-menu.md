@@ -2,6 +2,7 @@
 layout: "right.md"
 title: Side Menu
 tags: patterns
+branded: true
 summary: Allows for showing the teriary menu in page -- best used for large screens and up.
 
 date: 2024-08-30

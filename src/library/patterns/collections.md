@@ -101,7 +101,7 @@ This uses `primary` for the [color](http://localhost:8080/library/styles/colors/
       aria-expanded="false"
       aria-controls="e1"
     >
-      Other USWDS Settings for futuring branding
+      Other USWDS Settings for further branding
     </button>
   </h4>
   <div id="e1" class="usa-accordion__content usa-prose">

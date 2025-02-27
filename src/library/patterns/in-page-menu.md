@@ -42,7 +42,7 @@ In addition, these styles were set in the Theme Settings File
       aria-expanded="false"
       aria-controls="e1"
     >
-      Other USWDS Settings for futuring branding
+      Other USWDS Settings for further branding
     </button>
   </h4>
   <div id="e1" class="usa-accordion__content usa-prose">

@@ -2,6 +2,7 @@
 layout: "right.md"
 title: Search Widget
 tags: patterns
+branded: true
 summary: Search allows users to search for specific content if they know what search terms to use or can’t find desired content in the main navigation
 
 date: 2024-08-28
