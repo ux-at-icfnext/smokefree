@@ -91,7 +91,14 @@ collection-date:
 ## Smokefree styling
 This uses `primary` for the [color](http://localhost:8080/library/styles/colors/) and it pulls in the default [typography](http://localhost:8080/library/styles/type/).
 
+### Tag styling
+The highlighted tag as it's own styling from the other tabs. 
 
+``` css
+  .usa-collection__meta-item.usa-tag--new {
+    @include u-bg('accent-cool-darker');
+  }
+```
 
 <div class="usa-accordion">
   <h4 class="usa-accordion__heading">

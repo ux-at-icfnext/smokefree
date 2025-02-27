@@ -1,0 +1,6 @@
+@use "uswds-core" as *;
+
+// this colors the hightlighted tag in the collection pattern
+.usa-collection__meta-item.usa-tag--new {
+  @include u-bg('accent-cool-darker');
+}
