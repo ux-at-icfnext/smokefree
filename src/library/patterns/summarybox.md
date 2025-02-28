@@ -17,7 +17,7 @@ summarybox:
     - item: so she set off at once
     - item: and ran till she was quite tired
     - item: and out of breath
-    - item: and till the puppy’s bark](#) sounded quite faint in the distance.
+    - item: and till the [puppy’s bark](#) sounded quite faint in the distance.
 ---
 
 ## Design
