@@ -1,0 +1,252 @@
+.affix {
+    z-index: 206;
+    position: fixed;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .sf-navbar-container{
+        // max-width: 720px;
+    }
+    .sf-navbar{
+        border-radius: 4px;
+    }
+    .sf-navbar-nav{
+        float: left;
+        margin: 0;
+    }
+    .sf-navbar-nav li{
+        float: left;
+    }
+    .sf-tophat ul.nav {
+        display: inline;
+        float: left;
+        position: relative;
+        width: 90%;
+        left: inherit;
+        top: 0;
+        box-shadow: none;
+    }
+}
+
+.sf-banner{
+    background-color: #000;
+    border: 0;
+    border-radius: 0;
+    width: 100% !important;
+    max-width: 100%;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+    min-height: 2px !important;
+    transition: height .2s;
+}
+
+.sf-tophat{
+    z-index: 1;
+    margin-bottom: 0;
+    margin-top: 0;
+    background-color: #000;
+    border: 0;
+    border-radius: 0;
+    display: block !important;
+    opacity: 100 !important;
+    transition: max-height .15s;
+}
+
+.sf-container-fluid{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.sf-tophat .sf-navbar-brand{
+    display: none;
+    padding: 15px !important;
+    float: left;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    height: 50px;
+}
+
+.sf-tophat .sf-navbar-nav .active {
+    border-top: 2px solid #9ACAE4;
+    top: 2px;
+}
+
+.sf-tophat .sf-navbar-nav .active a{
+    background-color: #2a2a2a;
+}
+
+.sf-tophat .sf-navbar-nav li a{
+    padding-top: 15px;
+    padding-bottom: 14px;
+    text-align: center;
+}
+
+.sf-navbar-nav li a{
+    position: relative;
+    display: block;
+}
+
+.sf-tophat .sf-navbar-nav li a img{
+    margin-right: auto;
+    margin-left: auto;
+}
+.sf-tophat .sf-navbar-nav{
+    background-color: #000;
+    width: 100%;
+}
+
+.sf-navbar-collapse{
+   // display: none;
+}
+
+.sf-navbar:after, .sf-navbar:before {
+    content: " ";
+    display: table;
+}
+
+.sf-container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.sf-navbar-header:after, .sf-navbar-header:before {
+    content: " ";
+    display: table;
+}
+
+.sf-tophat .navbar-toggle#toggle-btn {
+    display: flex;
+    align-items: flex-end;
+    padding: 8px 15px;
+    min-height: 47px;
+    background: 0 0;
+}
+
+.sf-tophat .navbar-toggle{
+    text-align: right;
+    border: none;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    border-radius: 4px;
+}
+
+.clear{
+    clear: both;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.sf-tophat .toggle-message.text {
+    margin-right: 4px;
+}
+.sf-tophat .toggle-message{
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 600;
+    color: #fff;
+    text-align: right;
+}
+.sf-tophat .toggle-message.text.expanded {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: .08em;
+    font-weight: 600;
+    color: #fff;
+    padding-right: 10px;
+    transition: all .2s;
+    margin-bottom: 2px;
+    margin-right: -5px;
+}
+
+.sf-tophat .toggle-message.expanded {
+    display: none;
+}
+.sf-tophat .navbar-toggle#toggle-btn.collapsed .toggle-message.graphic {
+    height: 31px;
+}
+.sf-tophat .toggle-message.graphic {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.sf-tophat .toggle-message.graphic img {
+    width: 20px;
+    padding-top: 4px;
+}
+
+
+.sf-tophat a.navbar-brand {
+    display: none;
+    padding: 15px !important;
+}
+
+.sf-navbar-default .navbar-brand {
+    color: #777;
+}
+
+@media screen and (min-width: 992px) {
+    
+}
+
+@media screen and (max-width: 1199px) {
+    .sf-tophat .sf-navbar-collapse {
+        display: none !important;
+    }
+    .sf-tophat .sf-navbar-header {
+        float: none;
+    }
+    .sf-tophat .sf-navbar-header, .sf-tophat .sf-navbar-nav {
+        max-width: 1100px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .sf-tophat .sf-navbar-toggle{
+        margin: 0 !important;
+    }
+    .sf-tophat a.navbar-brand {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .sf-tophat .sf-navbar-header {
+        display: none;
+    }
+    .sf-tophat .sf-navbar-nav{
+        padding-left: 2.5%;
+    }
+    .sf-tophat .sf-navbar-nav li, .sf-tophat .sf-navbar-nav li a{
+        width: auto !important;
+        background-size: 100% 200%;
+        transition: background-position .3s;
+    }
+    .sf-tophat .sf-navbar-nav li a{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .sf-tophat .sf-navbar-nav li:not(.active) a{
+        background-color:#000;
+    }
+    .sf-tophat .sf-navbar-nav li:not(.active) a:hover{
+        background-color: #2a2a2a;
+    }
+}
