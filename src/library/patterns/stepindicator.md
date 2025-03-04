@@ -2,6 +2,7 @@
 layout: "right.md"
 title: Step Indicator
 tags: patterns
+branded: true
 summary: A step indicator updates users on their progress through a multi-step process.
 
 date: 2024-09-04
@@ -113,7 +114,23 @@ step-small:
 {% assign step = step-small %}
 {% include "patterns/stepindicator.md" %}
 
-## Theme Settings
+
+## Smokefree styling
+This uses Smokefree [colors](http://localhost:8080/library/styles/colors/) of the links, and it pulls in the default [typography](http://localhost:8080/library/styles/type/).
+
+<div class="usa-accordion">
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="e1"
+    >
+      Other USWDS Settings for further branding
+    </button>
+  </h4>
+  <div id="e1" class="usa-accordion__content usa-prose">
+
 These aspects can be set within the theme settings.
 
 - `$step-indicator-background-color `:Background color of the component and the gaps around the counters.
@@ -132,6 +149,8 @@ These aspects can be set within the theme settings.
 - `$theme-step-indicator-segment-gap `: Gap between step segments.
 - `$theme-step-indicator-segment-height `: Height of the step segment. Note that the mobile segment height is always 1 unit.
 - `$theme-step-indicator-text-pending-color `: The text color of pending steps. Use a gray grade of 60 more than the **$step-indicator-background-color**.
+</div>
+</div>
 
 ## Variants
 - `.usa-step-indicator--no-labels`: Don’t show step labels.

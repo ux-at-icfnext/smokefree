@@ -2,6 +2,7 @@
 layout: "right.md"
 title: Tools and Tips Cards
 tags: patterns
+custom: true
 summary: Tools and Tips
 
 date: 2024-09-11
