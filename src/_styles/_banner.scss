@@ -55,6 +55,11 @@
 .sf-tophat .sf-navbar-brand{
     display: none;
     padding: 15px !important;
+    float: left;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    height: 50px;
 }
 
 .sf-tophat .sf-navbar-nav .active {
@@ -163,6 +168,9 @@
     margin-right: -5px;
 }
 
+.sf-tophat .toggle-message.expanded {
+    display: none;
+}
 .sf-tophat .navbar-toggle#toggle-btn.collapsed .toggle-message.graphic {
     height: 31px;
 }
@@ -171,10 +179,19 @@
     flex-direction: column;
     justify-content: flex-start;
 }
+.sf-tophat .toggle-message.graphic img {
+    width: 20px;
+    padding-top: 4px;
+}
+
 
 .sf-tophat a.navbar-brand {
     display: none;
     padding: 15px !important;
+}
+
+.sf-navbar-default .navbar-brand {
+    color: #777;
 }
 
 @media screen and (min-width: 992px) {
@@ -182,6 +199,9 @@
 }
 
 @media screen and (max-width: 1199px) {
+    .sf-tophat .sf-navbar-collapse {
+        display: none !important;
+    }
     .sf-tophat .sf-navbar-header {
         float: none;
     }
