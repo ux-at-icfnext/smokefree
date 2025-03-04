@@ -18,6 +18,15 @@
     .sf-navbar-nav li{
         float: left;
     }
+    .sf-tophat ul.nav {
+        display: inline;
+        float: left;
+        position: relative;
+        width: 90%;
+        left: inherit;
+        top: 0;
+        box-shadow: none;
+    }
 }
 
 .sf-banner{
