@@ -1,3 +1,25 @@
+.affix {
+    z-index: 206;
+    position: fixed;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .sf-navbar-container{
+        // max-width: 720px;
+    }
+    .sf-navbar{
+        border-radius: 4px;
+    }
+    .sf-navbar-nav{
+        float: left;
+        margin: 0;
+    }
+    .sf-navbar-nav li{
+        float: left;
+    }
+}
+
 .sf-banner{
     background-color: #000;
     border: 0;
@@ -64,27 +86,122 @@
     width: 100%;
 }
 
-@media (min-width: 768px) {
-    .sf-navbar-container{
-        // max-width: 720px;
-    }
-    .sf-navbar{
-        border-radius: 4px;
-    }
-    .sf-navbar-nav{
-        float: left;
-        margin: 0;
-    }
-    .sf-navbar-nav li{
-        float: left;
-    }
+.sf-navbar-collapse{
+   // display: none;
+}
+
+.sf-navbar:after, .sf-navbar:before {
+    content: " ";
+    display: table;
+}
+
+.sf-container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.sf-navbar-header:after, .sf-navbar-header:before {
+    content: " ";
+    display: table;
+}
+
+.sf-tophat .navbar-toggle#toggle-btn {
+    display: flex;
+    align-items: flex-end;
+    padding: 8px 15px;
+    min-height: 47px;
+    background: 0 0;
+}
+
+.sf-tophat .navbar-toggle{
+    text-align: right;
+    border: none;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    border-radius: 4px;
+}
+
+.clear{
+    clear: both;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.sf-tophat .toggle-message.text {
+    margin-right: 4px;
+}
+.sf-tophat .toggle-message{
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 600;
+    color: #fff;
+    text-align: right;
+}
+.sf-tophat .toggle-message.text.expanded {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: .08em;
+    font-weight: 600;
+    color: #fff;
+    padding-right: 10px;
+    transition: all .2s;
+    margin-bottom: 2px;
+    margin-right: -5px;
+}
+
+.sf-tophat .navbar-toggle#toggle-btn.collapsed .toggle-message.graphic {
+    height: 31px;
+}
+.sf-tophat .toggle-message.graphic {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.sf-tophat a.navbar-brand {
+    display: none;
+    padding: 15px !important;
 }
 
 @media screen and (min-width: 992px) {
     
 }
 
+@media screen and (max-width: 1199px) {
+    .sf-tophat .sf-navbar-header {
+        float: none;
+    }
+    .sf-tophat .sf-navbar-header, .sf-tophat .sf-navbar-nav {
+        max-width: 1100px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .sf-tophat .sf-navbar-toggle{
+        margin: 0 !important;
+    }
+    .sf-tophat a.navbar-brand {
+        display: block;
+    }
+}
+
 @media only screen and (min-width: 1200px) {
+    .sf-tophat .sf-navbar-header {
+        display: none;
+    }
     .sf-tophat .sf-navbar-nav{
         padding-left: 2.5%;
     }
