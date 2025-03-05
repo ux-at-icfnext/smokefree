@@ -56,6 +56,41 @@
                     </li>
                 </ul>
             </div>
+            <div class="sf-navbar-collapse-mobile" id="sf-tophat-navbar-collapse-mobile">
+                <ul class="sf-nav sf-navbar-nav">
+                    <li class="active">
+                        <a>
+                            <img src="/assets/images/smokefree.png">
+                            <span>(current)</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="/assets/images/smokefree-veterans.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="/assets/images/smokefree-women.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="/assets/images/smokefree-teen.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="/assets/images/smokefree-espanol.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="/assets/images/smokefree-60+.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
 </div>

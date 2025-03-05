@@ -1,4 +1,4 @@
-var mobileMenu = document.getElementById('sf-tophat-navbar-collapse');
+var mobileMenu = document.getElementById('sf-tophat-navbar-collapse-mobile');
 var expandIcon = document.getElementById('expandIcon');
 var closeArrow = document.getElementById('closeArrow');
 var gridIcon = document.getElementById('gridIcon');
