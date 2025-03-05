@@ -225,6 +225,12 @@
         top: 0;
         box-shadow: none;
     }
+    .sf-tophat .sf-navbar-collapse ul>li>a {
+        text-align: left;
+        width: 100% !important;
+        padding: 15px;
+        line-height: 1.07143em;
+    }
     .sf-tophat .sf-navbar-header {
         float: none;
     }
