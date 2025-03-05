@@ -3,7 +3,7 @@
         <nav class="sf-navbar sf-navbar-default sf-tophat sf-smokefree">
             <div class="sf-container-fluid">
                 <div class="sf-navbar-header">
-                    <button type="button" id="toggle-btn" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#tophat-navbar-collapse" aria-expanded="false">
+                    <button type="button" id="toggle-btn" onclick="toggleMenu()" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#tophat-navbar-collapse" aria-expanded="false">
                     <div class="clear"></div>
                         <span class="sr-only">Toggle navigation</span>
                         <span class="toggle-message text collapsed">Explore the<br>Smokefree Family</span>

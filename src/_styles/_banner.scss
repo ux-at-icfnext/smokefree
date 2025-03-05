@@ -209,7 +209,13 @@
 
 @media screen and (max-width: 1199px) {
     .sf-tophat .sf-navbar-collapse {
-        display: none !important;
+        display: inline;
+        float: left;
+        position: relative;
+        width: 90%;
+        left: inherit;
+        top: 0;
+        box-shadow: none;
     }
     .sf-tophat .sf-navbar-header {
         float: none;
