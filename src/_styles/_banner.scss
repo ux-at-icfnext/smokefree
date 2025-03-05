@@ -239,6 +239,9 @@
     .sf-tophat a.navbar-brand {
         display: block;
     }
+    .sf-tophat .sf-navbar-collapse ul.sf-navbar-nav > li.active {
+        border-bottom: 2px solid #9ACAE4;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
