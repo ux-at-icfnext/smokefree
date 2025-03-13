@@ -11,6 +11,7 @@
 @use "breadcrumb";
 @use "banner";
 @use "tags";
+@use "typography";
 
 a[href^="http"]:not(.no-icon)::after,
 a[href^="https://"]:not(.no-icon)::after {
